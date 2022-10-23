@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise Nine</title>
+</head>
+<body>
+    <h1>CRIANDO LISTAS</h1>
+    <p>
+        Como ja diz o título. Podemos também criar listas usando duas Tags diferentes: <br>
+        &rarr; &lt;OL&gt; <mark>(Ordered Lists)</mark>, ou Listas Ordenadas em portugues. <br>
+        &rarr; &lt;UL&gt; <mark>(Unordered Lists)</mark>, ou Listas não Ordenadas em portugues
+    </p>
+    <p>Usamos a Tag &lt;Li&gt; (List item), para criar os itens da lista</p>
+    <p>
+        A tag &lt;ol&gt; possui um parâmetro <em>type</em>, onde configuramos o tipo de marcador da lista atual. <br>
+        As opções para esse parâmetro são: <br>
+        &rarr; 1 - valor padrão, cria listas numeradas. <strong>ex.: 1, 2, 3, 4..</strong> <br>
+        &rarr; A - cria listas alfabéticas em Maiúsculas. <strong>ex.: A, B, C, D..</strong> <br>
+        &rarr; a - cria listas alfabéticas em Minúsculas. <strong>ex.: a, b, c, d..</strong> <br>
+        &rarr; I - cria listas com algarismo romano em Maiúsculas. <strong>ex.: I, II, III, IV...</strong> <br>
+        &rarr; i - cria listas com algarismo romano em Minúsculas. <strong>ex.: i, ii, iii, iv...</strong>
+    </p>
+    <p>A tag &lt;ul&gt; possui um parâmetro <em>type</em>, onde configuramos o tipo de marcador da lista atual. <br>
+    As opções para esse parâmetro são: <br> &rarr; disc - formato padrão, cria uma lista com uma bolinha preenchido em preto;</p>
+    <ul type="disc"><li>item 1</li></ul>
+    <p>&rarr; circle - cria uma lista com uma bolinha sem preenchimento;</p>
+    <ul type="circle"><li>item 1</li></ul>
+    <p>&rarr; square - cria uma lista com um quadrado preenchido em preto;</p>
+    <ul type="square"><li>item 1</li></ul>
+
+    <h2>Criando uma lista</h2>
+    <p>Vamos criar uma lista</p>
+    <h3>Lista de jogos por categoria</h3>
+    <ul type="square">
+        <li>Sobrevivencia
+            <ol type="a">
+                <li>Dont Starve</li>
+                <li>Terraria</li>
+                <li>Subnautica</li>
+            </ol>
+        </li>
+        <li>Estratégia
+            <ol type="a">
+                <li>Star Craft 2</li>
+                <li>Heart Stone</li>
+            </ol>
+        </li>
+        <li>MOBA
+            <ol type="a">
+                <li>League of Legends</li>
+                <li>DOTA 2</li>
+                <li>Heroes of the Storm</li>
+            </ol>
+        </li>
+    </ul>
+    <h2>Lista de Definições</h2>
+    <p>Este tipo de lista é utilizada com a tag &lt;dl&gt; (definition list). Com ela criamos uma lista de termos, com suas respectivas descrições. Como um dicionário.</p>
+    <p>Utilizamos a tag &lt;dt&gt; (definition term) para cada termo;</p>
+    <p>Utilizamos a tag &lt;dd&gt; (definition description) para a descrição de cada termo</p>
+    <h3>Exemplo:</h3>
+    <dl>
+        <dt>HTML</dt><dd>Linguagem de marcação, atualmente na versão 5, onde foca na semantica e no conteudo do site</dd>
+        <dt>CSS</dt><dd>Linguagem de marcação, atualmente na versão 3, onde foca na forma/visual do site</dd>
+        <dt>JavaScript</dt><dd>Linguagem de programação onde é possivel dar funções e interatividade dentro do site</dd>
+    </dl>
+    <h2>Exercício</h2>
+    <h1>Trabalhando com Listas</h1>
+    <h2>Listas Ordenadas</h2>
+    <ol type="i">
+        <li>Acordar</li>
+        <li>Tomar banho</li>
+        <li>Tomar café</li>
+        <li>Escovar os dentes</li>
+        <li>Ir para o trabalho</li>
+        <li>Almoçar</li>
+        <li>Voltar do trabalho</li>
+        <li>Voltar para casa</li>
+        <li>Jantar</li>
+        <li>Dormir</li>
+    </ol>
+    <h2>Listas não ordenadas</h2>
+    <ul type="square">
+        <li>Jogar</li>
+        <li>Estudar</li>
+        <li>Dormir</li>
+        <li>Exercitar a mente</li>
+        <li>Exercitar o corpo</li>
+        <li>praticar</li>
+        <li>aperfeiçoar</li>
+    </ul>
+    <h2>Minhas linguagens favoritas</h2>
+    <ol type="1">
+        <li>antigas
+            <ol type="a">
+                <li>Clipper</li>
+                <li>Visual Basic</li>
+                <li>Fortran</li>
+                <li>Delphi</li>
+            </ol>
+        </li>
+        <li>Novas
+            <ol type="a", start="5">
+                <li>PHP</li>
+                <li>Python</li>
+                <li>JavaScript</li>
+                <li>Kotlin</li>
+            </ol>
+        </li>
+    </ol>
+    <h2>Meus jogos favoritos</h2>
+    <ol type="1">
+        <li>PC
+            <ul type="square">
+                <li>MOBA
+                    <ul type="circle">
+                        <li>League of Legends</li>
+                        <li>Dota 2</li>
+                    </ul>
+                </li>
+                <li>Sobrevivencia</li>
+            </ul>
+        </li>
+        <li>Ps2
+            <ul type="square">
+                <li>Clash Bandicoot</li>
+                <li>pac Man World ride</li>
+            </ul>
+        </li>
+        <li>Snes
+            <ul type="square">
+                <li>Mario kart</li>
+                <li>Donk kong</li>
+            </ul>
+        </li>
+    </ol>
+    <h2>Lista de Definições</h2>
+    <dl>
+        <dt>HTML</dt><dd>Linguagem de marcação para criação do conteúdo de um site</dd>
+        <dt>CSS</dt><dd>Linguagem de marcação para criação do design de um site</dd>
+        <dt>JavaScript</dt><dd>Linguagem de programação para criação de interatividade de um site</dd>
+    </dl>
+
+
+    <a href="../index.html", hreflang="pt-br", target="_self", rel="prev">&larr;</a>
+</body>
+</html>

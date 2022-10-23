@@ -1,0 +1,121 @@
+@charset "UTF-8";
+@font-face {
+    font-family:Song of Coronos;
+    src: url(../fontes/Song\ Of\ Coronos.ttf.ttf);
+}@keyframes fadein{
+    from{
+        opacity: 0;
+    }to{
+        opacity: 1;
+    }
+}
+*{margin: 0px;text-decoration: none;}
+:root{
+    --Cor1: white;
+    --Cor2: Black;
+    --Cor3: rgb(101, 129, 106);
+    --Cor4: rgb(112,78,46);
+    --Cor5: rgb(121 116 92);
+    --Cor6: rgb(230 248 178);
+    --Cor7: rgb(205 231 127);
+    --Cor8: rgb(112 145 118);
+}
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    margin: 0px;
+    background-color: rgb(230 248 178);
+}
+.spc{
+    margin: 0px 0px 15px 0px;
+}
+main{
+    background-color: white; box-shadow: 0px 3px 2px rgba(0, 0, 0, 0.527);
+    margin: 2px auto 0px auto;
+    max-width: 600px;
+    padding:20px;
+}
+/*========= HEADER =============*/
+header{
+    background-color: rgb(112 145 118);padding: 4% 0px;
+    max-width: 4650px;
+    max-height:228px;
+    
+}#forma-titulo{
+    margin: 0px auto 0px auto;
+    font-family:"Song of Coronos";
+    font-size: 4em;
+    text-align: center;
+    text-shadow: 0px 2px 1px white;
+}
+nav{
+    background-color: var(--Cor3); box-shadow: 0px 3px 2px rgba(0, 0, 0, 0.527);
+    padding: 10px 10px;
+}
+nav>a{
+    padding: 7px 15px;
+    color: var(--Cor2);
+    font-weight: 600;
+}nav>a:hover{
+    background-color: rgb(90, 116, 94); border-radius:7px;
+    color: var(--Cor1);
+    animation:fadein 0.75s;
+}
+/*============= MAIN ===============*/
+h2{
+    background-image: linear-gradient(to right, rgb(150, 102, 57), rgba(150, 102, 57, 0.308));
+}
+
+
+
+/*.main_paleta_nd{
+    background-color: rgba(250, 235, 215, 0.603); border-radius: 10px; outline: solid 1px black;
+    max-width: 150px;
+    margin:-74px 0px 0px 1000px;
+    padding: 1px 0px 1px 0px;
+    text-align: center;
+}.main_paleta_nd:hover{
+    height: 225px;
+}.main_paleta_nd > p{
+    display: none;
+}.main_paleta_nd:hover>p{
+    display: block;
+    text-align: center;
+}#cor1{
+    color:rgb(112 78 46)
+}#cor1:hover{
+    color:white;
+    background-color: rgb(112 78 46); width: 120px; border-radius: 10px; margin: auto; Coffe
+    text-align: center;
+}#cor2{
+    color:rgb(121 116 92)
+}#cor2:hover{
+    color:white;
+    background-color: rgb(121 116 92); width: 120px; border-radius: 10px; margin: auto; Gold fusion
+    text-align: center;
+}#cor3{
+    color:rgb(230 248 178)
+}#cor3:hover{
+    color:black;
+    background-color: rgb(230 248 178); width: 120px; border-radius: 10px; margin: auto; Key lime
+    text-align: center;
+}#cor4{
+    color: rgb(205 231 127)
+}#cor4:hover{
+    color:black;
+    background-color: rgb(205 231 127); width: 120px; border-radius: 10px; margin: auto; Yellow green Crayola
+    text-align: center;
+}#cor5{
+    color: rgb(112 145 118)
+}#cor5:hover{
+    color:black;
+    background-color: rgb(112 145 118); width: 120px; border-radius: 10px; margin: 0px auto 15px; Russian Green
+    text-align: center;
+}
+<main class="main_paleta_nd">
+            <h3>Paleta de cores</h3>
+            <p id="cor1"> rgb(112,78,46) </p>
+            <p id="cor2"> rgb(121 116 92) </p>
+            <p id="cor3"> rgb(230 248 178) </p>
+            <p id="cor4"> rgb(205 231 127) </p>
+            <p id="cor5"> rgb(112 145 118) </p>
+        </main>*/

@@ -1,0 +1,131 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+        @keyframes Fadein {
+            from{
+                opacity: 0;
+            }to{
+                opacity: 1;
+            }
+        }
+        @font-face {
+            font-family: idroid;
+            src: url(idroid.otf);
+        }
+        :root{
+            --Cor_letra1: white;
+            --Cor_letra2: black;
+            --Cor_letra3: #1d771c;
+        }
+        body{
+            background-color: #cef0ce;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0px;
+        }
+        .format_bold{color: var(--Cor_letra3); font-weight: 900;}
+        .link_ex{color:var(--Cor_letra3);}.link_ex:hover{text-decoration: underline;}
+        .link_ex::after{content: ' \1F517';}
+        /*======== HEADER ================ HEADER ======================= HEADER ===================*/
+        header{
+            background-image: linear-gradient(to bottom, #64d860, #042e03);
+            box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.616);
+            
+        }h1{
+            font-family: 'Bebas Neue', cursive;
+            font-size: 3em;
+            color: var(--Cor_letra1);
+            text-align: center;
+            margin: 0px 0px; padding: 20px 0px;
+        }article{
+            color:var(--Cor_letra1);
+            text-align: center;
+            margin: 0px 0px; padding: 5px 0px 1px 0px;
+        }nav{
+            margin-top: 13px;
+            height: 27px;
+        }a{
+            color:var(--Cor_letra1);
+            display: inline;
+            padding: 5px 20px;
+            text-decoration: none;
+            font-weight: bolder;
+        }nav>a:hover{
+            background-color: #64d8607a; border-radius: 5px;
+            color: var(--Cor_letra2);
+            animation: Fadein 0.45s;
+        }
+        /*=====================================================================================================*/
+        /*=========== MAIN ==================== MAIN ========================= MAIN ===========================*/
+        
+        main{
+            background-color: white; box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.616); border-radius: 0px 0px 15px 15px;
+            max-width: 700px;
+            margin: 0px auto;
+            padding: 10px 20px 30px 20px;
+        }.subtitulo{
+            font-size: 1.2em;
+            background-image: linear-gradient(to right, rgb(202, 228, 202), white);
+        }#titulo, .subtitulo{
+            color: #042e03;
+            font-family: idroid;
+            font-size: 1.5em;
+            text-align: left;
+        }p, li{
+            font-weight: 500;
+            font-size: 1em;
+            text-align: justify;
+            text-indent: 50px;
+            margin: 0px 0px
+        }
+        
+        img{
+            width: 90%;
+            margin: 5% 5%;
+        }#imagem2{
+            width: 97%;
+            margin: 5% 1.5%;
+        }#imagem3{
+            width: 50%;
+            margin: 5% 25%;
+        }
+        
+        #div_video{
+            background-color: #042e03;
+            margin: 15px -20px 0px -20px;
+            box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.616);
+        }iframe{
+            background-color: #042e03;
+            margin: 20px 4.9%;
+        }
+        
+        #menu_aprendermais{
+            border-radius: 15px 15px 15px 15px;
+            margin: 20px;
+            background-color: #ccf7cb;
+        }h3{
+            border-radius: 15px 15px 0px 0px;
+            background-color: var(--Cor_letra3);
+            padding: 5px 0px 5px 20px;
+            color: var(--Cor_letra1);
+        }#menu_aprendermais>p{padding: 0px 20px 20px 20px;}
+        ul{
+            list-style-type: "\2714";
+            columns: 2;
+            /*padding: 0px 55px;*/
+        }
+        /*============================= FOOTER ===================*/
+        footer{
+            background-color: #042e03;
+            margin-top: 20px;
+        }footer>aside{
+            text-align: center;
+            padding: 10px 0px;
+            color: var(--Cor_letra1);
+        }
+        .seta_retorno{
+            width: 25px;
+            margin:auto;
+            display: none;
+        }
+        footer>aside:hover>.seta_retorno{
+            display: block;
+        }

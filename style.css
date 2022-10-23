@@ -1,0 +1,106 @@
+@charset "UTF-8";
+body{                                       /*estilo geral da pagina*/
+    background-color: rgb(25,42,81);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}#main_principal{                           /*estilo do main principal da pagina*/
+    background-color: rgb(213,198,224);
+    border-radius: 15px;
+    padding: 10px;
+}.titulo{                                   /*estilo do titulo principal da pagina("Let's go?"), na linha 30*/
+    color: black;
+    text-align:center;
+    padding:10px;
+    background-color: rgb(170,161,200);
+    border-radius: 50px;
+    font:lighter 2.2em impact;/*weight size family*/
+}.sectionpaleta{                            /*estilo da seção das paletas em uso*/
+    background-color: rgba(213, 198, 224, 0.411);
+    max-width: 150px;
+    max-height: 400px;
+    padding: 10px;
+}h1,p, h2,.titulo_paleta{                   /*A letra desses elementos são da cor Branca*/
+    color: white;
+}.titulo_paleta{                            /*estilo do título "Paleta de cores", na linha 18*/
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 500;
+    font-size: 1.3em;
+    text-align: center;
+}.mark1{                                    /*marks 1 a 5: atribui uma cor difirente*/
+    background-color: rgb(245,230,232);
+}.mark2{
+    background-color: rgb(150,122,161);
+}.mark3{
+    background-color: rgb(25,42,81);
+    color: white;
+}.mark4{
+    background-color: rgb(213,198,224);
+}.mark5{
+    background-color: rgb(170,161,200);
+}img{                                       /*posição da imagem*/
+    position: absolute; /*tem tbm: fixed e relative*/
+    left: 45%;
+    top: 18px;
+    max-width: 240px;
+    max-height: 220px;
+}div > p{                                   /*elemento p é filho do elemento div - config faz esconder o elemento p*/
+    display: none;
+}div:hover > p{                             /*elemento p é filho do elemento div - pseudo-class HOVER faz uma ação quando mouse passa em cima dele - config faz aparecer o elemento p*/
+    display: block;      
+}.span2{                                    /*config da cor da letra para vermelho*/
+    color: red;
+    text-shadow: 0px 0px 5px white;
+}.span1{                                    /*config da cor da letra para verde*/
+    color:green;
+    text-shadow: 0px 0px 5px white;
+}a{                                         /*text-decoration está desativado para todos os links*/
+    text-decoration: none;
+}
+
+
+.estilocaminho, .estilocaminhoseven, .estilocaminhoeleven, .estilocaminhothirteen, .estilocaminhoforteen, .estilocaminhofifteen{/*A letra desses elementos são da cor Preto*/
+    color: black;
+}.estilocaminho:hover{                      /*estilo de todos os sub-titulos do Main principal quando HOVER for ativado"*/
+    color:rgb(245,230,232);
+    text-shadow: 0px 0px 7px black;
+    font-size: 1.1em;
+}.estilocaminhoseven:hover{                 /*estilo do sub-titulo "Exercise Seven", na linha 37, quando HOVER for ativado*/
+    color:rgb(245, 230, 232);
+    text-shadow: 0px 0px 7px black;
+    font-size: 1.1em;
+}.estilocaminhoseven:hover::after{          /*Add conteudo no elemento, quando HOVER for ativado*/
+    content:' ► Exercicio sobre semântica';
+    font-style: italic;
+}.estilocaminhoeleven:hover{                /*estilo do sub-titulo "Exercise Eleven", na linha 41, quando HOVER for ativado*/
+    color:rgb(245, 230, 232);
+    text-shadow: 0px 0px 7px black;
+    font-size: 1.1em;
+}.estilocaminhoeleven:hover::after{         /*Add conteudo no eleemento, quando HOVER for ativado*/
+    content:' ► Exercicio sobre Imagem dinamica e audio';
+    font-style: italic;
+}.estilocaminhothirteen:hover{              /*estilo do sub-titulo "Exercise Thirteen", na linha 43, quando HOVER for ativado*/
+    color:rgb(245, 230, 232);
+    text-shadow: 0px 0px 7px black;
+    font-size: 1.1em;
+}.estilocaminhothirteen:hover::after{       /*Add conteudo no elemento, quando HOVER for ativado*/
+    content: ' ► Exercicio sobre a tecnica Inline, no CSS';
+    font-style: italic;
+}.estilocaminhoforteen:hover{
+    color:rgb(245, 230, 232);
+    text-shadow: 0px 0px 7px black;
+    font-size: 1.1em;
+}.estilocaminhoforteen:hover::after{
+    content: ' ► Exercicio sobre a tecnica Local/Interna, no CSS';
+    font-style: italic;
+}.estilocaminhofifteen:hover{
+    color: rgb(245,230,232);
+    text-shadow: 0px 0px 7px black;
+    font-size:1.1em;
+}.estilocaminhofifteen:hover::after{
+    content:' ► Exercicio sobre a tecnica externa, no CSS';
+    font-style: italic;
+}
+
+.subtitulo:hover{                           /*estilo da class subtitulo, quando HOVER for ativado*/
+    text-shadow: 0px 0px 7px rgb(213,198,224);;
+    
+}
