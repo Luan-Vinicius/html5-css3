@@ -7,15 +7,56 @@
     <title>Exercise Seven</title>
 </head>
 <body>
-    <h1>O que é Semantica?</h1>
+    <h1>PRINCIPAIS FORMATAÇÕES</h1>
+    <h2>Negrito</h2>
+    <p>Nessa frase temos um <b>termo em negrito</b> usando a tag B (não semantica)</p>
+    <p>Nesta frase, tenho um <strong>termo em negrito</strong> usando a tag STRONG (semantica)</p>
+    <h2>Italico/Ênfase</h2>
+    <p>Nesta frase, temos um termo em <i>italico</i> usando a tag I (não semantico)</p>
+    <p>Nesta frase, temos um termo em <em>italico</em> usando a tag EM (semantico)</p>
+    <strong><em>TESTE DE ENVELOPAMENTO</em></strong>
+    <h2>Texto marcado</h2>
+    <p>podemos criar também <mark style="background-color: rgb(56, 56, 228);">um texto marcado</mark> usando a tag MARK</p>
+    <p>E no outro parágrafo, temos <mark style="background-color: orange;">outro texto marcado</mark> no final.</p>
     <p>
-        Semantica é aquilo que tem significado.<br>
-        No HTML4, muitas tags davam valor a forma do texto do que o significado<br>
-        <strong>Agora no HTML5</strong>, a linguagem tenta dar <em>prioridade ao significado das palavras (a semantica)</em>, do que a forma (o visual)<br>
-        O trabalho do visual das palavras. A forma. A linguagem CSS foi encarregada dessa tarefa. <br>
-        Portanto, na linguagem atual do HTML, <mark>precisamos saber separar a semantica/significado, da forma/visual</mark>
+        Existem 3 formas de colocar Estilos: <br>
+        &rarr; Colocando o Style dentro da TAG; <br>
+        &rarr; Colocando o Style dento do documento, na área HEAD; <br>
+        &rarr; Colocando o Style por link externo.
     </p>
+    <h2>Texto grande e pequeno</h2>
+    <p>Estamos criando um <big>Texto grande</big> e um <small>texto pequeno</small> nesse parágrafo</p>
+    <h2>Texto Deletado</h2>
+    <p>Podemos marcar <del>um texto como excluido</del> para indicar que ele deve ser lido, mas não considerado</p>
+    <h2>Texto inserido</h2>
+    <p>Podemos marcar <ins>um texto como inserido</ins> para dar uma ênfase e indicar que ele foi adicionado depois</p>
+    <p>Existe também o <u>sublinhado</u> com a tag U (não semantico)</p>
+    <h2>Texto sobrescrito</h2>
+    <p>Para inserir coisas do tipo x<sup>20</sup>+3</p>
+    <h2>Texto subscrito</h2>
+    <p>Para inserir coisas do tipo H<sub>2</sub>O</p>
+    <h2>Trechos de código</h2>
+    <p>Em site de códigos de linguagem de programação e desenvolvimento, é comum vermos que a parte onde mostra o código em si, tem um formato diferente <br>Para deixa-las dessa forma, utilizamos a tag CODE:</p>
+    <h3>Exemplo &darr;</h3>
+    <blockquote>
+        <code>
+            <p>
+                num = int(input('Digite um numero')) <br>
+                if num % 2 == 0: <br>
+                print (f'0 numero {num} é par') <br>
+                else: <br>
+                print(f'0 número {num} é impar) <br>
+                print('FIM DO PROGRAMA') <br>
+            </p>
+        </code>
+    </blockquote>
+    <h2>Citações</h2>
+    <p>citações seria quando colocamos uma parte de um texto dito por uma pessoa. fazer isso, usando a tag Q:</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint nulla qui, eum asperiores quo molestiae nostrum, voluptatum veniam sequi incidunt totam laboriosam nisi itaque dolores, quod aliquid delectus ex officiis.</p>
+    <blockquote><q>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facere quam cumque velit placeat, provident, non reprehenderit adipisci nihil tempora voluptatem optio nulla laborum corrupti nostrum exercitationem. Est magnam iure rem?</q></blockquote>
+    <h2>Abreviações</h2>
+    <p>Utilizamos a tag ABBR para dar semantica a palavra que é uma abreviação:</p>
+    <p>Exemplo: Eu estou estudando <abbr title="Hypertext marckup language">HTML</abbr> para criar sites</p>
     <a href="../index.html", hreflang="pt-br", target="_self", rel="prev">&larr;</a>
-    
 </body>
 </html>

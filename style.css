@@ -57,17 +57,17 @@ body{                                       /*estilo geral da pagina*/
 }
 
 
-.estilocaminho, .estilocaminhoseven, .estilocaminhoeleven, .estilocaminhothirteen, .estilocaminhoforteen, .estilocaminhofifteen{/*A letra desses elementos são da cor Preto*/
+.estilocaminho, .estilocaminhosix, .estilocaminhoeleven, .estilocaminhothirteen, .estilocaminhoforteen, .estilocaminhofifteen, .estilocaminhoeighteen, .estilocaminhonineteen{/*A letra desses elementos são da cor Preto*/
     color: black;
 }.estilocaminho:hover{                      /*estilo de todos os sub-titulos do Main principal quando HOVER for ativado"*/
     color:rgb(245,230,232);
     text-shadow: 0px 0px 7px black;
     font-size: 1.1em;
-}.estilocaminhoseven:hover{                 /*estilo do sub-titulo "Exercise Seven", na linha 37, quando HOVER for ativado*/
+}.estilocaminhosix:hover{                 /*estilo do sub-titulo "Exercise six", na linha 37, quando HOVER for ativado*/
     color:rgb(245, 230, 232);
     text-shadow: 0px 0px 7px black;
     font-size: 1.1em;
-}.estilocaminhoseven:hover::after{          /*Add conteudo no elemento, quando HOVER for ativado*/
+}.estilocaminhosix:hover::after{          /*Add conteudo no elemento, quando HOVER for ativado*/
     content:' ► Exercicio sobre semântica';
     font-style: italic;
 }.estilocaminhoeleven:hover{                /*estilo do sub-titulo "Exercise Eleven", na linha 41, quando HOVER for ativado*/
@@ -98,9 +98,25 @@ body{                                       /*estilo geral da pagina*/
 }.estilocaminhofifteen:hover::after{
     content:' ► Exercicio sobre a tecnica externa, no CSS';
     font-style: italic;
+}.estilocaminhoeighteen:hover{
+    color: rgb(245,230,232);
+    text-shadow: 0px 0px 7px black;
+    font-size:1.1em;
+}.estilocaminhoeighteen:hover::after{
+    content:' ► Uso de fontes com o Google Fontes';
+    font-style: italic;
+}.estilocaminhonineteen>#frase_escondida{
+    display: none;
+}.estilocaminhonineteen:hover>#frase_escondida2{
+    display: none;
+}.estilocaminhonineteen:hover>#frase_escondida{
+    display: inline-block;
+    color: rgb(245,230,232);
+    text-shadow: 0px 0px 7px black;
+    font-size:1.1em;
 }
 
 .subtitulo:hover{                           /*estilo da class subtitulo, quando HOVER for ativado*/
-    text-shadow: 0px 0px 7px rgb(213,198,224);;
+    text-shadow: 0px 0px 7px rgb(213,198,224);
     
 }
