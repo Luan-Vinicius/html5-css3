@@ -114,6 +114,20 @@ body{                                       /*estilo geral da pagina*/
     color: rgb(245,230,232);
     text-shadow: 0px 0px 7px black;
     font-size:1.1em;
+}.estilocaminhotwenty:hover{
+    color: rgb(245,230,232);
+    text-shadow: 0px 0px 7px black;
+    font-size:1.1em;
+}.hide_word>a{
+    color: rgb(245,230,232);
+    text-shadow: 0px 0px 7px black;
+    font-size:1.1em;
+}.hide_word{
+    display: none;
+}.estilocaminhotwenty:hover>.hide_word{
+    display:inline;
+}.hide_word>a:hover{
+    text-decoration: underline;
 }
 
 .subtitulo:hover{                           /*estilo da class subtitulo, quando HOVER for ativado*/
