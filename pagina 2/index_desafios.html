@@ -7,7 +7,9 @@
     <title>Desafio One</title>
     <style>
         body{
-            background-color: rgb(25,42,81);
+            background-image: url(3_desafios/imgs/wall-blocks-600x400.jfif);
+            background-repeat: no-repeat;
+            background-size: cover;
             font: normal 1em 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
         }h1{
             background-color: rgb(245,230,232);
@@ -19,7 +21,15 @@
             width: 150px;
             height: 25px;
             text-align:center
-        }a{
+        }main{
+            background-color: rgba(255, 255, 255, 0.76); outline:black solid 5px; border:red solid 2px;
+            max-width: 400px;
+            margin: auto;
+        }
+        #voltar{
+            background-color: black;outline: red solid 3px;
+            padding: 3px;
+            color:white;
             text-decoration: none;
         }spen{
             display:none;
@@ -28,20 +38,26 @@
             display:inline;
             
         }.d1{
-            color: white
+            color: black;
+            text-decoration: none;
+        }li{
+            text-align: center;
         }
     </style>
 </head>
 <body>
     <h1>Desafios</h1>
-    <ul type="square" style="color: white;">
-        <li><a class="d1" href="3_desafios/d001.html", hreflang="pt-br", target="_self", rel="next">D<spen>esafio </spen>001</a>
-        <li><a class="d1" href="3_desafios/d002.html", hreflang="pt-br", target="_self", rel="next">D<spen>esafio </spen>002</a>
-        <li><a class="d1" href="3_desafios/d003.html", hreflang="pt-br", target="_self", rel="next">D<spen>esafio </spen>003</a>
-        <li><a class="d1" href="3_desafios/d004.html", hreflang="pt-br", target="_self", rel="next">D<spen>esafio </spen>004</a>
-        <li><a class="d1" href="3_desafios/d005.html", hreflang="pt-br", target="_self", rel="next">D<spen>esafio </spen>005</a>
-        <li><a class="d1" href="3_desafios/d006.html", hreflang="pt-br", target="_self", rel="next">D<spen>esafio </spen>006</a>
-    </ul>
-    <a href="../index.html", hreflang="pt-br", target="_self", rel="prev">Voltar</a>
+    <main>
+        <ul type="square" style="color: black;">
+            <li><a class="d1" href="3_desafios/d001.html", hreflang="pt-br", target="_self", rel="next">D<spen>esafio </spen>001</a>
+            <li><a class="d1" href="3_desafios/d002.html", hreflang="pt-br", target="_self", rel="next">D<spen>esafio </spen>002</a>
+            <li><a class="d1" href="3_desafios/d003.html", hreflang="pt-br", target="_self", rel="next">D<spen>esafio </spen>003</a>
+            <li><a class="d1" href="3_desafios/d004.html", hreflang="pt-br", target="_self", rel="next">D<spen>esafio </spen>004</a>
+            <li><a class="d1" href="3_desafios/d005.html", hreflang="pt-br", target="_self", rel="next">D<spen>esafio </spen>005</a>
+            <li><a class="d1" href="3_desafios/d006.html", hreflang="pt-br", target="_self", rel="next">D<spen>esafio </spen>006</a>
+        </ul>
+    </main>
+    
+    <a id="voltar" href="../index.html", hreflang="pt-br", target="_self", rel="prev">⇦ Voltar</a>
 </body>
 </html>

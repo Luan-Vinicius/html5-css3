@@ -2,18 +2,8 @@
 body{                                       /*estilo geral da pagina*/
     background-color: rgb(25,42,81);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
-}#main_principal{                           /*estilo do main principal da pagina*/
-    background-color: rgb(213,198,224);
-    border-radius: 15px;
-    padding: 10px;
-}.titulo{                                   /*estilo do titulo principal da pagina("Let's go?"), na linha 30*/
-    color: black;
-    text-align:center;
-    padding:10px;
-    background-color: rgb(170,161,200);
-    border-radius: 50px;
-    font:lighter 2.2em impact;/*weight size family*/
-}.sectionpaleta{                            /*estilo da seção das paletas em uso*/
+}a{text-decoration: none;}                  /*text-decoration está desativado para todos os links*/
+.sectionpaleta{                             /*estilo da seção das paletas em uso*/
     background-color: rgba(213, 198, 224, 0.411);
     max-width: 150px;
     max-height: 400px;
@@ -52,12 +42,24 @@ body{                                       /*estilo geral da pagina*/
 }.span1{                                    /*config da cor da letra para verde*/
     color:green;
     text-shadow: 0px 0px 5px white;
-}a{                                         /*text-decoration está desativado para todos os links*/
-    text-decoration: none;
 }
 
-
-.estilocaminho, .estilocaminhosix, .estilocaminhoeleven, .estilocaminhothirteen, .estilocaminhoforteen, .estilocaminhofifteen, .estilocaminhoeighteen, .estilocaminhonineteen, .estilocaminhotwenty{/*A letra desses elementos são da cor Preto*/
+.imagem_fundo{                             /*imagem de fundo do main_principal*/
+    background-image: url(imgs/wall-blocks-1024x768.jpg);
+    background-repeat: no-repeat; background-size: cover; background-attachment: fixed;
+}#main_principal{                           /*estilo do main principal da pagina*/
+    background-color: rgb(213,198,224);
+    border-radius: 15px; padding: 10px; margin:auto;
+    max-width: 700px;
+    height: 1000px;
+}#div_main_principal{                       /*ajustes da caixa para colocar a imagem de fundo*/
+    margin: 0px -10px; padding: 20px; outline: rgb(15, 27, 54) solid 4px;
+}#titulo{                                   /*estilo do titulo principal da pagina("Let's go?"), na linha 30*/
+    border-radius: 50px; padding:10px; margin: 15px auto; max-width: 300px;
+    color: black;
+    text-align:center; text-shadow: 0px 0px 10px white;
+    font:lighter 2.2em impact;/*weight size family*/
+}.estilocaminho, .estilocaminhosix, .estilocaminhoeleven, .estilocaminhothirteen, .estilocaminhoforteen, .estilocaminhofifteen, .estilocaminhoeighteen, .estilocaminhonineteen, .estilocaminhotwenty{/*A letra desses elementos são da cor Preto*/
     color: black;
 }.estilocaminho:hover{                      /*estilo de todos os sub-titulos do Main principal quando HOVER for ativado"*/
     color:rgb(245,230,232);
