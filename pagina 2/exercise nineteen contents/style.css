@@ -1,0 +1,35 @@
+@charset "UTF-8";
+:root{
+    --color1:rgb(205,255,203);
+    --color2: rgb(4,109,0);
+    --color3:rgb(73,109,36);
+    --color4:rgb(152,122,36);
+    --color5:rgb(109,36,36);
+}
+body{
+    background-color: var(--color1);
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    background-color: var(--color2);
+    color: white;
+    text-align: center;
+}
+h2{
+    color: var(--color2);
+    font-size: 2em;
+    padding: 0px 0px;
+}
+h3{
+    font-size: 1.5em;
+    font-style: italic;
+}
+.basico{
+    color: var(--color3);
+}
+.inter{
+    color: var(--color4);
+}
+.avanc{
+    color: var(--color5);
+}

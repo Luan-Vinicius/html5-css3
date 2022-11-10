@@ -107,12 +107,7 @@ body{                                       /*estilo geral da pagina*/
 }.estilocaminhoeighteen:hover::after{
     content:' ► Uso de fontes com o Google Fontes';
     font-style: italic;
-}.estilocaminhonineteen>#frase_escondida{
-    display: none;
-}.estilocaminhonineteen:hover>#frase_escondida2{
-    display: none;
-}.estilocaminhonineteen:hover>#frase_escondida{
-    display: inline-block;
+}.estilocaminhonineteen:hover{
     color: rgb(245,230,232);
     text-shadow: 0px 0px 7px black;
     font-size:1.1em;
