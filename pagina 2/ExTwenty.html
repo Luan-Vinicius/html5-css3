@@ -7,13 +7,25 @@
     <title>HOVER</title>
     <style>
         body{
-            background-color: lightblue;
+            font-family: Arial, Helvetica, sans-serif;
         }
         h1{
-            text-align: center;
-            padding-top: 43vh;
             font-size: 3em;
-        }a{
+        }p{
+            font-size: 1.1em;
+        }#efeito:hover{
+            color: red;
+        }span{
+            display: none;
+        }#efeito:hover>span{
+            display:block;
+            width: 190px;
+            margin-top: 20px;
+            padding: 2px 0px;
+            background-color: red;
+            color: white;
+        }
+        a{
             text-align: center;
             font-size: 1.5em;
             display: block;
@@ -21,8 +33,12 @@
     </style>
 </head>
 <body>
-    <h1>EM CONSTRUÇÃO..</h1>
-    <a href="../index.html">&larr; voltar</a>
-    <a href="exercise twenty contents/LINKS.html">proximo &rarr;</a>
+    <h1>Exemplo de hover</h1>
+    <p>Passe o mouse sobre o texto abaixo</p>
+    <p id="efeito">Passe o mouse aqui<span>TEXTO ESCONDIDO...</span></p>
+    <p>Fim do exemplo</p>
+
+    <a href="../index.html" hreflang="pt-br" target="_self" rel="prev">&larr; voltar</a>
+    <a href="exercise twenty contents/LINKS.html" hreflang="pt-br" target="_self" rel="next">proximo &rarr;</a>
 </body>
 </html>
