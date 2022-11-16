@@ -14,11 +14,11 @@
             text-align: center;
             font-size: 1.5em;
             display: block;
-        }
-        li>a:active{
+        }li>a:visited{/*A pseudoclasse 'visited' foi declarada antes da pseudoclasse active, pois quando colocamos depois, a pseudoclasse active não funciona*/
+            color: orangered;
+        }li>a:active{
             color: green;
-        }
-        li>a{
+        }li>a{
             font-size: 1.25em;
             font-weight: 700;
             text-align: left;  
@@ -37,21 +37,25 @@
         }li>.efeito::after{
             content: " ◀";
             color: black;
-        }#obs>h1{
+        }
+        
+        #obs>h1{/*config do titulo 'OBS'*/
             font-size: 1em;
             margin: 0px;
-        }
-        #obs>h1:hover>.hide{
+        }#obs>div{/*esconde os textos que estão dento da div 'obs'*/
             display: none;
-        }p{
-            display: none;
-        }#obs:hover>p{
-            background-color: rgba(0, 0, 0, 0.363);
-        }
-        #obs:hover>p{
-            margin: 0px;
+        }#obs:hover>div{/*quando passar o mouse, o fundo fica cinza*/
+            background-color: rgba(0, 0, 0, 0.11);
+        }#obs:hover>div{/*config do box da div, quando passar o mouse */
             margin-bottom: 2px;
             display: inline-block;
+            border-radius: 10px 10px 10px 10px;
+        }#obs>div>p{
+            margin: 10px;
+        }.title{
+            font-weight: 900;
+        }.italic{
+            font-style: italic;
         }
         
     </style>
@@ -65,14 +69,14 @@
     </ul>
     <div id="obs">
         <h1>OBS<span class="hide">...</span></h1>
-        <p>
-            pseudoclasse 'active'<br>
-            efeito: quando o User clicar e segurar um elemento, com o botão esquerdo do mouse, algo acontece.
-        </p>
-        <p>
-            pseudoclasse 'visited' <br>
-            efeito: quando o User clicar em um link, o elemento é alterado
-        </p>
+        <div>
+            <p class="title">pseudoclasse 'active'</p>
+            <p><span class="title">efeito:</span> Quando o User clicar e segurar um elemento, com o botão esquerdo do mouse, algo acontece.</p>
+        </div>
+        <div>
+            <p class="title">pseudoclasse 'visited'</p>
+            <p><span class="title">efeito:</span> Quando o User clicar em um link, o elemento é alterado</p>
+        </div>
     </div>
     
 
