@@ -59,7 +59,7 @@ body{                                       /*estilo geral da pagina*/
     color: black;
     text-align:center; text-shadow: 0px 0px 10px white;
     font:lighter 2.2em impact;/*weight size family*/
-}.estilocaminho, .estilocaminhosix, .estilocaminhoeleven, .estilocaminhothirteen, .estilocaminhoforteen, .estilocaminhofifteen, .estilocaminhoeighteen, .estilocaminhonineteen, .estilocaminhotwenty{/*A letra desses elementos são da cor Preto*/
+}.estilocaminho, .estilocaminhosix, .estilocaminhoeleven, .estilocaminhothirteen, .estilocaminhoforteen, .estilocaminhofifteen, .estilocaminhoeighteen, .estilocaminhonineteen, .estilocaminhotwenty, .estilocaminhotwentyone{/*A letra desses elementos são da cor Preto*/
     color: black;
 }.estilocaminho:hover{                      /*estilo de todos os sub-titulos do Main principal quando HOVER for ativado"*/
     color:rgb(245,230,232);
