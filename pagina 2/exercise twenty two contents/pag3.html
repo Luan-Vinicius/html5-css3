@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            margin:0px;
+            padding:0px;
+        }
+        .tamanho{
+            background-image: url(imgs/wallpaper003.jpg);
+            margin: 10px;
+            max-width:1500px;
+            height:200px;
+            border-radius: 30px;
+            border: solid 2px black;
+        }
+        #img1{
+            
+
+            background-position: top left;
+        }
+        #img2{
+            
+
+            background-position: center center;
+        }
+        #img3{
+           
+
+            background-position: right bottom;
+        }
+        #img4{
+            background-position: center center;
+        }
+        a{
+            margin: 10px;
+            font-size: 2em;
+        }
+        .hide2
+        {
+            display: none;
+        }
+        a:hover>.hide2{
+            display: inline;
+        }
+        a:hover>.hide1{
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="tamanho" id="img1"></div>
+    <div class="tamanho" id="img2"></div>
+    <div class="tamanho" id="img3"></div>
+    <div class="tamanho" id="img4"></div>
+    <a href="pag2.html" hreflang="pt-br" target="_self" rel="prev"><span class="hide1">&larr;</span><span class="hide2">voltar</span></a>
+    <a href="#" hreflang="pt-br" target="_self" rel="next"><span class="hide1">&rarr;</span><span class="hide2">proximo</span></a>
+</body>
+</html>
