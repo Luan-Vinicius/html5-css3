@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste formulário</title>
+</head>
+<style>
+    span{
+        color: red;
+    }
+    a{
+        display: inline-block;
+        color: black;
+        background-color: #dee1e4;
+        text-decoration: none;
+        padding: 1.5px 5px;
+        border: 1px solid rgb(155, 155, 155);
+    }
+</style>
+<body>
+    <form action="" method="get" autocomplete="off">
+        <fieldset>
+            <legend>Dados pessoais</legend>
+            <p>
+                <label for="_nome"><span>*</span>Nome:</label>
+                <input type="text" name="nome" id="_nome" maxlength="5" required>
+            </p>
+            <p>
+                <label for="_idade">idade:</label>
+                <input type="number" name="idade" id="_idade">
+            </p>
+            <p>
+                <label for="_data"><span>*</span>data de nascimento:</label>
+                <input type="date" name="data" id="_data" required>
+            </p>
+        </fieldset>
+        <fieldset>
+            <legend>Endereço</legend>
+            <p>
+                <label for="_log"><span>*</span>Logradouro:</label>
+                <input type="text" name="log" id="_log" required>
+
+                <label for="_num"><span>*</span>numero</label>
+                <input type="number" name="num" id="_num" required>
+            </p>
+            <p>
+                <label for="_cidade"><span>*</span>cidade</label>
+                <input type="text" name="cidade" id="_cidade" required>
+            </p>
+        </fieldset>
+        <input type="submit" value="enviar">
+        <p><a href="../index_pratic.html">voltar</a></p>
+    </form>
+</body>
+</html>
