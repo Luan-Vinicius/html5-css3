@@ -51,6 +51,38 @@ main{
     padding: 15px;
     text-align:justify;
 }
+#form{
+    background-color:#ffffff;
+    width:70%;
+    height:50%;
+    padding:5px;
+    margin:auto;
+}
+legend{
+    text-align: center;
+    padding-bottom: 5px;
+    font-weight:bolder;
+    font-size:1.5em;
+}
+#aventura{
+    position: relative;
+    width:310px;
+    margin: auto;
+    padding:5px;
+    /*left: 50%; transform:translate(-50%)*/
+}
+#terror{
+    position: relative;
+    width:317px;
+    margin:auto;
+    padding:5px;
+}
+#cat{
+    position:relative;
+    width:310px;
+    margin:auto;
+    padding:5px;
+}
 /*========= FOOTER ===========*/
 footer{
     background-color:#a01e1a;

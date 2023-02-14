@@ -32,9 +32,9 @@ body{                                       /*estilo geral da pagina*/
     top: 18px;
     max-width: 240px;
     max-height: 220px;
-}div > p{                                   /*elemento p é filho do elemento div - config faz esconder o elemento p*/
+}div > .pp{                                   /*elemento p é filho do elemento div - config faz esconder o elemento p*/
     display: none;
-}div:hover > p{                             /*elemento p é filho do elemento div - pseudo-class HOVER faz uma ação quando mouse passa em cima dele - config faz aparecer o elemento p*/
+}div:hover > .pp{                             /*elemento p é filho do elemento div - pseudo-class HOVER faz uma ação quando mouse passa em cima dele - config faz aparecer o elemento p*/
     display: block;      
 }.span2{                                    /*config da cor da letra para vermelho*/
     color: red;
@@ -43,14 +43,15 @@ body{                                       /*estilo geral da pagina*/
     color:green;
     text-shadow: 0px 0px 5px white;
 }
-
+/*===================== MAIN =================================*/
+/*============================================================*/
 .imagem_fundo{                             /*imagem de fundo do main_principal*/
     background-image: url(imgs/wall-blocks-1024x768.jpg);
     background-repeat: no-repeat; background-size: cover; background-attachment: fixed;
 }#main_principal{                           /*estilo do main principal da pagina*/
     background-color: rgb(213,198,224);
     border-radius: 15px; padding: 10px; margin:auto;
-    max-width: 700px;
+    max-width: 500px;
     max-height: 2000px;
 }#div_main_principal{                       /*ajustes da caixa para colocar a imagem de fundo*/
     margin: 0px -10px; padding: 20px; outline: rgb(15, 27, 54) solid 4px;
@@ -59,7 +60,15 @@ body{                                       /*estilo geral da pagina*/
     color: black;
     text-align:center; text-shadow: 0px 0px 10px white;
     font:lighter 2.2em impact;/*weight size family*/
-}.estilocaminho, .estilocaminhosix, .estilocaminhoeleven, .estilocaminhothirteen, .estilocaminhoforteen, .estilocaminhofifteen, .estilocaminhoeighteen, .estilocaminhonineteen, .estilocaminhotwenty, .estilocaminhotwentyone, .estilocaminhotwentytwo{/*A letra desses elementos são da cor Preto*/
+}
+/*=============================== EXERCICIOS =================*/
+/*============================================================*/
+#main_principal>h2
+#main_principal>#list_exerc{
+    display: none;
+}
+
+.estilocaminho, .estilocaminhosix, .estilocaminhoeleven, .estilocaminhothirteen, .estilocaminhoforteen, .estilocaminhofifteen, .estilocaminhoeighteen, .estilocaminhonineteen, .estilocaminhotwenty, .estilocaminhotwentyone, .estilocaminhotwentytwo{/*A letra desses elementos são da cor Preto*/
     color: black;
 }.estilocaminho:hover{                      /*estilo de todos os sub-titulos do Main principal quando HOVER for ativado"*/
     color:rgb(245,230,232);

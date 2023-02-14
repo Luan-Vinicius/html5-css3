@@ -28,6 +28,50 @@
                 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Numquam enim molestias nobis id nesciunt facilis, voluptatem doloribus nostrum ipsum architecto, repudiandae fugiat vitae tenetur rem, sit velit quam aperiam vel?
                 Reiciendis earum molestiae adipisci, quisquam est dolore officiis ex nihil. Reiciendis inventore est atque beatae velit ut ipsam accusamus soluta sed iure, harum fugit, provident alias, perspiciatis aspernatur minima dicta.
             </p>
+            <br>
+            <section id="form">
+                <form action="">
+                    <fieldset>
+                        <legend>JOGOS</legend>
+                        <div id="aventura">
+                            <label for="i_aventura">Jogos de aventura:</label>
+                            <select name="aventura" id="i_aventura" placeholder="selecione">
+                                <option value="">Pac Man</option>
+                                <option value="">Clash</option>
+                                <option value="">Castlevania</option>
+                                <option value="">Shadow of the colossos</option>
+                            </select>
+                        </div>
+                        <div id="terror">
+                            <label for="">Jogos de suspense e terror</label>
+                            <select name="" id="">
+                                <optgroup label="terror">
+                                    <option value="">Dead Space</option>
+                                    <option value="">Slender</option>
+                                    <option value="">Resident Evil</option>
+                                    <option value="">Out Last</option>
+                                </optgroup>
+                                <optgroup label="Suspense">
+                                    <option value="">FNAF</option>
+                                    <option value="">Amnesia</option>
+                                    <option value="">Until Dawn</option>
+                                </optgroup>
+                            </select>
+                        </div>
+                        <div id="cat">
+                            <label for="i_categoria">Categoria de jogo:</label>
+                            <input type="text" id="i_categoria" list="lista_categoria">
+                            <datalist id="lista_categoria">
+                                <option value="Estrategia"></option>
+                                <option value="Puzzle"></option>
+                                <option value="Horror"></option>
+                                <option value="Corrida"></option>
+                                <option value="Luta"></option>
+                            </datalist>
+                        </div>
+                    </fieldset>
+                </form>
+            </section>
         </article>
     </main>
     <footer>
