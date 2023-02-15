@@ -8,7 +8,7 @@ body{                                       /*estilo geral da pagina*/
     max-width: 150px;
     max-height: 400px;
     padding: 10px;
-}h1,p, h2,.titulo_paleta{                   /*A letra desses elementos são da cor Branca*/
+}h1, h2, h3, p, .titulo_paleta{                   /*A letra desses elementos são da cor Branca*/
     color: white;
 }.titulo_paleta{                            /*estilo do título "Paleta de cores", na linha 18*/
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
@@ -63,9 +63,18 @@ body{                                       /*estilo geral da pagina*/
 }
 /*=============================== EXERCICIOS =================*/
 /*============================================================*/
-#main_principal>h2
+#main_principal>h3{
+    cursor:pointer;
+    text-align:center;
+    color: black;
+}
 #main_principal>#list_exerc{
     display: none;
+    text-align:center;
+    
+}
+#list_exerc>p{
+    box-sizing: border-box;
 }
 
 .estilocaminho, .estilocaminhosix, .estilocaminhoeleven, .estilocaminhothirteen, .estilocaminhoforteen, .estilocaminhofifteen, .estilocaminhoeighteen, .estilocaminhonineteen, .estilocaminhotwenty, .estilocaminhotwentyone, .estilocaminhotwentytwo{/*A letra desses elementos são da cor Preto*/

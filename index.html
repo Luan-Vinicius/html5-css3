@@ -29,11 +29,11 @@
     <div id="div_main_principal" class="imagem_fundo">
         <main id="main_principal">
             <h2 id="titulo" class="imagem_fundo" >Let's go?</h2>
-            <h2 onclick="openExerc()">Exercicios</h2>
+            <h3 onclick="openExerc()">Exercicios</h3>
             <div id="list_exerc">
                 <p><a class="estilocaminho" href="exercicios/1one/ExOne.html", hreflang="pt-br", target="_self", rel="next">Exercise One</a></p>
-                <p><a class="estilocaminho" href="exercicios/3three/ExThree.html", hreflang="pt-br", target="_self", rel="next">Exercise Three</a></p>
                 <p><a class="estilocaminho" href="exercicios/2two/ExTwo.html", hreflang="pt-br", target="_self", rel="next">Exercise Two</a></p>
+                <p><a class="estilocaminho" href="exercicios/3three/ExThree.html", hreflang="pt-br", target="_self", rel="next">Exercise Three</a></p>
                 <p><a class="estilocaminho" href="exercicios/4four/ExFour.html", hreflang="pt-br", target="_self", rel="next">Exercise Four</a></p>
                 <p><a class="estilocaminho" href="exercicios/5five/ExFive.html", hreflang="pt-br", target="_self", rel="next">Exercise Five</a></p>
                 <p><a class="estilocaminhosix" href="exercicios/6six/ExSix.html", hreflang="pt-br", target="_self", rel="next">Exercise Six</a></p>
@@ -65,10 +65,10 @@
     </body>
     <script>
         function openExerc(){
-            if(list_exerc.style.display=="block"){
-                list_exerc.style.display="none";
-            }else{
+            if(list_exerc.style.display=="none"){
                 list_exerc.style.display="block";
+            }else{
+                list_exerc.style.display="none";
             }
         }
     </script>
