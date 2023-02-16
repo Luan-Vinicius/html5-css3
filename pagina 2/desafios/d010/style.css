@@ -23,6 +23,14 @@ body,html{
     height: 100vh;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+p{
+    text-align:justify;
+    text-indent:40px;
+    font-weight:500;
+
+    padding: 10px 35px;
+    margin: auto;
+}
 /*================== HEADER =======================*/
 
 header{
@@ -44,14 +52,14 @@ header>p{
     color:white;
 
     text-align:center;
-    font-size:0.95em;
+    font-size:0.915em;
 
     /*margin: 0px 50px 0px 50px;*/
 }
 menu{
     display: inline-block;
     position:relative;
-    top:35px;
+    top:15px;
     left: 50%; transform:translate(-50%);
 }
 header>menu>a{
@@ -82,7 +90,7 @@ section>.style_article>h1,h2{
     text-align: center;
 
     
-    margin: 8px 0px;
+    margin: 20px 0px 0px 0px;
 }
 section>.style_article>h1{
     font-size: 1.3em;
@@ -94,12 +102,7 @@ section>.style_article>h2{
     padding: 2px 0px;
 }
 .style_article>p{
-    text-align:justify;
-    text-indent:40px;
-    font-weight:500;
-
-    padding: 10px 35px;
-    margin: auto;
+    /*========================*/
 }
 .big_screen{
     display: none;
@@ -114,11 +117,49 @@ section>.style_article>h2{
     width:350px;
     height: 227px;;
 }
+#article_video{
+    background-color: rgb(2, 49, 2);
+    padding:15px;
+}
 iframe{
-    margin:0px 10px;
+    position: relative;
+    left:50%; transform:translate(-50%)
 }
 
+/*================== ARTICLE APRENDER MAIS =======================*/
+#article_aprender>h2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
 
-
+    display: block;
+    background-color: darkgreen;
+    margin: 10px 10px 0px 10px;
+    border-radius:10px 10px 0px 0px;
+    padding: 5px 0px;
+    border-left: solid black 1px;
+    border-right: solid black 1px;
+    border-top: solid black 1px;
+}
+#div_aprender{
+    background-color: rgb(188, 255, 188);
+    margin: 0px 10px;
+    border-radius: 0px 0px 10px 10px;
+    border-left: solid black 1px;
+    border-right: solid black 1px;
+    border-bottom: solid black 1px;
+}
+ul{
+    list-style-type: none;/*"\2714\00a0";*/
+    columns: 2;
+    text-align:center;
+}
 
 /*======  ============= FOOTER =======================*/
+footer{
+    background-color:rgb(2, 49, 2);
+    height:40px;
+}
+footer>p{
+    font-size:0.89em;
+    color: white;
+}
