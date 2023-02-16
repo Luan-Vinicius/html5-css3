@@ -1,8 +1,9 @@
 @charset "UTF-8";
 body{                                       /*estilo geral da pagina*/
     background-color: rgb(25,42,81);
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
-}a{text-decoration: none;}                  /*text-decoration está desativado para todos os links*/
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+a{text-decoration: none;}                  /*text-decoration está desativado para todos os links*/
 .sectionpaleta{                             /*estilo da seção das paletas em uso*/
     background-color: rgba(213, 198, 224, 0.411);
     max-width: 150px;
@@ -26,7 +27,7 @@ body{                                       /*estilo geral da pagina*/
     background-color: rgb(213,198,224);
 }.mark5{
     background-color: rgb(170,161,200);
-}img{                                       /*posição da imagem*/
+}img{                                       /*posição da imagem "AREA DE TESTE"*/
     position: absolute; /*tem tbm: fixed e relative*/
     left: 45%;
     top: 18px;
@@ -152,7 +153,8 @@ body{                                       /*estilo geral da pagina*/
     text-shadow: 0px 0px 7px black;
     font-size:1.1em;
 }
-
+/*================ FOOTER ======================================*/
+/*================================================================*/
 .subtitulo:hover{                           /*estilo da class subtitulo, quando HOVER for ativado*/
     text-shadow: 0px 0px 7px rgb(213,198,224);
     
