@@ -156,12 +156,10 @@ tr:nth-child(even){
 }
 .left{
     text-align:left;
-    border-collapse: collapse;
 }
 .right{
     text-align:right;
     padding-left: 10px;
-    border-collapse: collapse;
 }
 article>div>ul{
     list-style-type: "\2714";
@@ -172,8 +170,10 @@ article>div>ul{
 /*=========== FOOTER =============*/
 footer{
     background-color:rgb(3, 73, 3);
+    height: 25px;
+    padding: 10px;
 }
 footer>p{
     color: white;
-    font-size:0.8em;
+    font-size:.9em;
 }
