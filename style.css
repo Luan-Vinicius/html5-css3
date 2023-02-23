@@ -74,84 +74,49 @@ a{text-decoration: none;}                  /*text-decoration está desativado pa
     text-align:center;
     
 }
-#list_exerc>p{
-    box-sizing: border-box;
-}
 
-.estilocaminho, .estilocaminhosix, .estilocaminhoeleven, .estilocaminhothirteen, .estilocaminhoforteen, .estilocaminhofifteen, .estilocaminhoeighteen, .estilocaminhonineteen, .estilocaminhotwenty, .estilocaminhotwentyone, .estilocaminhotwentytwo{/*A letra desses elementos são da cor Preto*/
+.estilocaminho{/*A letra desses elementos são da cor Preto*/
     color: black;
 }.estilocaminho:hover{                      /*estilo de todos os sub-titulos do Main principal quando HOVER for ativado"*/
     color:rgb(245,230,232);
     text-shadow: 0px 0px 7px black;
     font-size: 1.1em;
-}.estilocaminhosix:hover{                 /*estilo do sub-titulo "Exercise six", na linha 37, quando HOVER for ativado*/
+}.estiloAdd:hover{                /*estilo do sub-titulo "Exercise Eleven", na linha 41, quando HOVER for ativado*/
     color:rgb(245, 230, 232);
     text-shadow: 0px 0px 7px black;
     font-size: 1.1em;
-}.estilocaminhosix:hover::after{          /*Add conteudo no elemento, quando HOVER for ativado*/
+}
+
+#six:hover::after{          /*Add conteudo no elemento, quando HOVER for ativado*/
     content:' ► Exercicio sobre semântica';
     font-style: italic;
-}.estilocaminhoeleven:hover{                /*estilo do sub-titulo "Exercise Eleven", na linha 41, quando HOVER for ativado*/
-    color:rgb(245, 230, 232);
-    text-shadow: 0px 0px 7px black;
-    font-size: 1.1em;
-}.estilocaminhoeleven:hover::after{         /*Add conteudo no eleemento, quando HOVER for ativado*/
+}#eleven:hover::after{         /*Add conteudo no eleemento, quando HOVER for ativado*/
     content:' ► Exercicio sobre Imagem dinamica e audio';
     font-style: italic;
-}.estilocaminhothirteen:hover{              /*estilo do sub-titulo "Exercise Thirteen", na linha 43, quando HOVER for ativado*/
-    color:rgb(245, 230, 232);
-    text-shadow: 0px 0px 7px black;
-    font-size: 1.1em;
-}.estilocaminhothirteen:hover::after{       /*Add conteudo no elemento, quando HOVER for ativado*/
+}#thirteen:hover::after{       /*Add conteudo no elemento, quando HOVER for ativado*/
     content: ' ► Exercicio sobre a tecnica Inline, no CSS';
     font-style: italic;
-}.estilocaminhoforteen:hover{
-    color:rgb(245, 230, 232);
-    text-shadow: 0px 0px 7px black;
-    font-size: 1.1em;
-}.estilocaminhoforteen:hover::after{
+}#fourteen:hover::after{
     content: ' ► Exercicio sobre a tecnica Local/Interna, no CSS';
     font-style: italic;
-}.estilocaminhofifteen:hover{
-    color: rgb(245,230,232);
-    text-shadow: 0px 0px 7px black;
-    font-size:1.1em;
-}.estilocaminhofifteen:hover::after{
+}#fifteen:hover::after{
     content:' ► Exercicio sobre a tecnica externa, no CSS';
     font-style: italic;
-}.estilocaminhoeighteen:hover{
-    color: rgb(245,230,232);
-    text-shadow: 0px 0px 7px black;
-    font-size:1.1em;
-}.estilocaminhoeighteen:hover::after{
+}#eighteen:hover::after{
     content:' ► Uso de fontes com o Google Fontes';
     font-style: italic;
-}.estilocaminhonineteen:hover{
-    color: rgb(245,230,232);
-    text-shadow: 0px 0px 7px black;
-    font-size:1.1em;
-}.estilocaminhotwenty:hover{
-    color: rgb(245,230,232);
-    text-shadow: 0px 0px 7px black;
-    font-size:1.1em;
+}
+
+.hide_word{/*ESCONDE ALGUMAS PALAVRAS DO EXERCICIO 20*/
+    display: none;
 }.hide_word>a{
     color: rgb(245,230,232);
     text-shadow: 0px 0px 7px black;
     font-size:1.1em;
-}.hide_word{
-    display: none;
-}.estilocaminhotwenty:hover>.hide_word{
+}.estilocaminho:hover>.hide_word{
     display:inline;
 }.hide_word>a:hover{
     text-decoration: underline;
-}.estilocaminhotwentyone:hover{
-    color: rgb(245,230,232);
-    text-shadow: 0px 0px 7px black;
-    font-size:1.1em;
-}.estilocaminhotwentytwo:hover{
-    color: rgb(245,230,232);
-    text-shadow: 0px 0px 7px black;
-    font-size:1.1em;
 }
 /*================ FOOTER ======================================*/
 /*================================================================*/
