@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário 4</title>
+</head>
+<body>
+    <h1>Exemplo de formulário</h1>
+    <form action="cadastro.php">
+        <fieldset>
+            <legend>Dados pessoais</legend>
+            <p>
+                <label for="inome">Nome: </label>
+                <input type="text" id="inome" minlength="5" required>
+            </p>
+            <p>
+                <label for="imail">E-mail: </label>
+                <input type="email" id="imail">
+            </p>
+            <p>
+                <label for="ifone">Telefone: </label>
+                <input type="tel" id="ifone" placeholder="(xx)xxxxx-xxxx" required pattern="^\(\d{2}\)\d{4,5}-\d{4,5}$">
+            </p>
+        </fieldset>
+        <br>
+        <input type="submit" value="enviar">
+        <input type="reset" value="limpar">
+    </form>
+    <a href="form003.html">voltar</a>
+    <a href="form005.html">proximo</a>
+</body>
+</html>
