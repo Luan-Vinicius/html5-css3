@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário 7</title>
+</head>
+<body>
+    <h1>Exemplo de formulário</h1>
+    <form action="cadastro.php" method="get">
+        <p>
+            <label for="iestado">Estado: </label>
+            <select name="" id="">
+                <option value="">--- Escolha ---</option>
+                <optgroup label="Região Sudeste">
+                    <option value="">São Paulo</option>
+                    <option value="">Rio de Janeiro</option>
+                    <option value="">Minas Gerais</option>
+                </optgroup>
+                <optgroup label="Região Nordeste">
+                    <option value="">Rio Grande do Norte</option>
+                    <option value="">Pernambuco</option>
+                    <option value="">Maranhão</option>
+                </optgroup>
+            </select>
+        </p>
+        <p>
+            <label for="ipro">Profissão: </label>
+            <input type="text" name="" id="ipro" list="profs">
+            <datalist id="profs">
+                <option value="Administrador"></option>
+                <option value="Contabilidade"></option>
+                <option value="Desenvolvedor"></option>
+                <option value="Professor"></option>
+            </datalist>
+        </p>
+        <p>
+            <label for="iarea">Mensagem</label><br>
+            <textarea name="" id="iarea" cols="30" rows="10"></textarea>
+        </p>
+        <input type="submit" value="enviar">
+        <input type="reset" value="limpar">
+    </form>
+    <a href="form006.html">voltar</a>
+    <a href="form008.html">proximo</a>
+</body>
+</html>
