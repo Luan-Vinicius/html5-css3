@@ -1,0 +1,12 @@
+@charset "UTF-8";
+body{
+    background-color: rgb(35,62,255);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin:0px;
+    padding:0px;
+    width: 500px;
+
+    color:white;
+    font-family:Arial, Helvetica, sans-serif;
+}

@@ -1,0 +1,23 @@
+@charset "UTF-8";
+body{
+    font-family: 'Courier New', Courier, monospace;
+    padding: 0px 50px;
+    font-size:1.5em;
+}
+/*=========== HEADER ==========*/
+header{
+    text-align:center;
+}
+nav{
+    display: none;
+}
+/*=========== MAIN ==========*/
+main{
+    text-align: justify;
+}
+main>h1{
+    text-align:center;
+}
+div{
+    display:none;
+}
