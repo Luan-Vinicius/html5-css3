@@ -1,5 +1,15 @@
 @charset "UTF-8";
 body{
     background-image:url(imagens/cev-portrait.jpg);
-    background-position:center center;
+    background-position:center bottom;
+}
+#btn1{
+    position: relative;
+    top:450px;
+    margin-left: 7vw;
+}
+#btn2{
+    position: relative;
+    top:450px;
+    margin-left: 55vw;
 }

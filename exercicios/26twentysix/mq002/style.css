@@ -1,12 +1,28 @@
 @charset "UTF-8";
-body{
-    background-color: rgb(35,62,255);
-    background-size: cover;
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+html, body{
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    background-color: #233eff;
+    background-size: contain;
     background-repeat: no-repeat;
-    margin:0px;
-    padding:0px;
-    width: 500px;
+}
+h1{
+    color: white;
+    text-shadow: 2px 2px 0px #233dff86;
+}
+.btn{
+    display: inline-block;
+    background-color: yellow;
+    border: solid 3px black;
+    padding: 5px;
+    width: 60px;
 
-    color:white;
-    font-family:Arial, Helvetica, sans-serif;
+    text-align: center;
+    text-decoration: none;
 }

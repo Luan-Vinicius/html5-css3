@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Query 3</title>
+    <style>
+        *{
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0px;
+            padding: 0px;
+        }
+        html, body{
+            position: relative;
+            background-color: rgb(35, 62, 255);
+            background-repeat: no-repeat;
+            background-size: contain;
+            width: 100vw;
+            height: 100vh;
+        }
+        h1{
+            color:white;
+        }
+        .btn{
+            display: block;
+            background-color: lightyellow;
+            width: 60px;
+            padding: 5px;
+
+            text-align: center;
+            text-decoration:none;
+        }
+        div{
+
+        }
+        @media screen and (orientation:portrait){
+            body{
+                background-image: url(../imagens/cev-portrait.jpg);
+                background-position: bottom center;
+            }
+        }
+        @media screen and (orientation:landscape){
+            body{
+                background-image: url(../imagens/cev-landscape.jpg);
+                background-position:left bottom;
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>Mude a orientação do seu dispositivo</h1>
+    <div>
+        <a id="" class="btn" href="../mq002/index.html">voltar</a>
+        <a id="" class="btn" href="../mq004/index.html">proximo</a>
+    </div>
+</body>
+</html>
