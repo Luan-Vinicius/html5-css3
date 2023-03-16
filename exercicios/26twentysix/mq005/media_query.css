@@ -1,0 +1,96 @@
+@charset "UTF-8";
+
+@media screen and (min-width:768px) and (max-width:992px){
+    /*============ HEADER =============*/
+    header>#burguer_icon{
+        display:none;
+    }
+    header>#menu{
+        background-color: rgb(53 53 51);
+        display: flex;
+        justify-content: center;
+    }
+    header #menu a:hover{
+        background-color: rgb(83 83 81);
+    }
+    header>#menu>a{
+        background-color: rgb(53 53 51);
+        margin: 0px 10px;
+        padding: 10px 10px;
+        border: none;
+    }
+    /*============= MAIN ==============*/
+    main h2{
+        text-align:center;
+    }
+}
+@media screen and (min-width:992px) and (max-width: 1200px){
+    body{
+        font-size:1.2em;
+    }
+    /*============ HEADER =============*/
+    header>#burguer_icon{
+        display:none;
+    }
+    header>#menu{
+        background-color: rgb(53 53 51);
+        display: flex;
+        justify-content: left;
+    }
+    header #menu a:hover{
+        background-color: rgb(83 83 81);
+    }
+    header>#menu>a{
+        background-color: rgb(53 53 51);
+        margin: 0px 10px;
+        padding: 10px 10px;
+        border: none;
+    }
+    /*============= MAIN ==============*/
+    main{
+        width: 750px;
+        padding:20px 30px;
+    }
+    main h2{
+        text-align:center;
+    }
+    main p{
+        text-align:justify;
+        text-indent:50px;
+    }
+}
+@media screen and (min-width: 1200px){
+    body{
+        font-size:1.2em;
+    }
+    /*============ HEADER =============*/
+    header>#burguer_icon{
+        display:none;
+    }
+    header>#menu{
+        background-color: rgb(53 53 51);
+        display: flex;
+        justify-content: left;
+    }
+    header #menu a:hover{
+        background-color: rgb(83 83 81);
+    }
+    header>#menu>a{
+        background-color: rgb(53 53 51);
+        margin: 0px 10px;
+        padding: 10px 10px;
+        border: none;
+    }
+    /*============= MAIN ==============*/
+    main{
+        width: 800px;
+        padding:20px 30px;
+    }
+    main h2{
+        text-align:center;
+    }
+    main p{
+        text-align:justify;
+        text-indent:50px;
+    }
+}
