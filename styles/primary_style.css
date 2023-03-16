@@ -47,7 +47,7 @@ a{text-decoration: none;}                  /*text-decoration está desativado pa
 /*===================== MAIN =================================*/
 /*============================================================*/
 .imagem_fundo{                             /*imagem de fundo do main_principal*/
-    background-image: url(imgs/wall-blocks-1024x768.jpg);
+    background-image: url(../imgs/wall-blocks-1024x768.jpg);
     background-repeat: no-repeat; background-size: cover; background-attachment: fixed;
 }#main_principal{                           /*estilo do main principal da pagina*/
     background-color: rgb(213,198,224);
