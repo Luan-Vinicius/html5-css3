@@ -1,0 +1,13 @@
+@charset "UTF-8";
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: darkblue;
+    border-bottom: solid 4px black;
+    width: inherit;
+    height: 150px;
+
+    text-align: center;
+    vertical-align: middle;
+}

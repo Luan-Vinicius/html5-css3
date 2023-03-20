@@ -1,0 +1,23 @@
+@charset "UTF-8";
+*{
+    margin: 0px;
+    padding: 0px;
+}
+hr{
+    display: none;
+}
+html{
+    background-color: rgb(25,42,81);
+    width: 100vw;
+}
+body{
+    background: url(../../imgs/wall-blocks-1024x768.jpg) no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+/*================== HEADER =================*/
+/*================== MAIN =================*/
+/*================== FOOTER=================*/
