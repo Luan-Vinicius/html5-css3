@@ -7,6 +7,7 @@ header{
     border-bottom: solid 4px black;
     width: inherit;
     height: 150px;
+    margin: 0px 20px;
 
     text-align: center;
     vertical-align: middle;

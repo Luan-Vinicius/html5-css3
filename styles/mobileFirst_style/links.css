@@ -1,0 +1,46 @@
+@charset "UTF-8";
+.estilocaminho{/*A letra desses elementos são da cor Preto*/
+    color: black;
+}.estilocaminho:hover{                      /*estilo de todos os sub-titulos do Main principal quando HOVER for ativado"*/
+    color:rgb(245,230,232);
+    text-shadow: 0px 0px 7px black;
+    font-size: 1.1em;
+}
+
+#six:hover::after{          /*Add conteudo no elemento, quando HOVER for ativado*/
+    content:' ► Exercicio sobre semântica';
+    font-style: italic;
+}#eleven:hover::after{         /*Add conteudo no eleemento, quando HOVER for ativado*/
+    content:' ► Exercicio sobre Imagem dinamica e audio';
+    font-style: italic;
+}#thirteen:hover::after{       /*Add conteudo no elemento, quando HOVER for ativado*/
+    content: ' ► Exercicio sobre a tecnica Inline, no CSS';
+    font-style: italic;
+}#fourteen:hover::after{
+    content: ' ► Exercicio sobre a tecnica Local/Interna, no CSS';
+    font-style: italic;
+}#fifteen:hover::after{
+    content:' ► Exercicio sobre a tecnica externa, no CSS';
+    font-style: italic;
+}#eighteen:hover::after{
+    content:' ► Uso de fontes com o Google Fontes';
+    font-style: italic;
+}
+
+.hide_word{/*ESCONDE ALGUMAS PALAVRAS DO EXERCICIO 20*/
+    display: none;
+}.hide_word>a{
+    color: rgb(245,230,232);
+    text-shadow: 0px 0px 7px black;
+}.estilocaminho:hover>.hide_word{
+    display:inline;
+}.hide_word>a:hover{
+    text-decoration: underline;
+}
+
+footer a{
+    display: block;
+    margin-top: 10px;
+
+    color: white;
+}

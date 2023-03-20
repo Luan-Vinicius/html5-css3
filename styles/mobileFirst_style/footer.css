@@ -1,6 +1,9 @@
 @charset "UTF-8";
 .footer{
+    display: flex;
+    justify-content: space-around;
     background-color: darkblue;
     width: inherit;
+    height: 100%;
     border-top: solid 4px black;
 }
