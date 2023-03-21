@@ -38,8 +38,8 @@
     text-decoration: underline;
 }
 
-footer a{
-    display: block;
+.footer a{
+    height: 25px;
     margin-top: 10px;
 
     color: white;

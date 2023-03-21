@@ -1,0 +1,6 @@
+@charset "UTF-8";
+@media screen and (min-width:992px) and (max-width:1200px){
+    .header .box h1{
+        font-size: 3em;
+    }
+}
