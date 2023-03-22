@@ -23,10 +23,14 @@
         <link rel="stylesheet" href="styles/pc_style/title.css">
         <link rel="stylesheet" href="styles/pc_style/subtitle.css">
         <link rel="stylesheet" href="styles/pc_style/paragrapy.css">
+        <link rel="stylesheet" href="styles/pc_style/img.css">
     </div>
-    <link rel="stylesheet" href="styles/bigScreen_style/main.css">
-    <link rel="stylesheet" href="styles/bigScreen_style/title.css">
-    <link rel="stylesheet" href="styles/bigScreen_style/paragrapy.css">
+    <div id="TELAS GRANDES STYLE">
+        <link rel="stylesheet" href="styles/bigScreen_style/main.css">
+        <link rel="stylesheet" href="styles/bigScreen_style/title.css">
+        <link rel="stylesheet" href="styles/bigScreen_style/paragrapy.css">
+        <link rel="stylesheet" href="styles/bigScreen_style/img.css">
+    </div>
 </head>
 <body>
 
@@ -42,8 +46,8 @@
     </header>
 
     <main class="main">
-        <h1 id="titulo" class="imagem_fundo" >Let's go?</h1>
-        <h3 onclick="openExerc()">Exercicios</h3>
+        <h1 id="titulo" class="imagem_fundo" >Exercicios</h1>
+        <h3 id="guanabara_class" onclick="openExerc()">Guanabara's class</h3>
         <div id="list_exerc">
             <p><a class="estilocaminho" href="exercicios/1one/ExOne.html", hreflang="pt-br", target="_self", rel="next">Exercise One</a></p>
 
@@ -115,8 +119,10 @@
         function openExerc(){
             if(list_exerc.style.display=="none"){
                 list_exerc.style.display="block";
+                guanabara_class.style.color="yellow";
             }else{
                 list_exerc.style.display="none";
+                guanabara_class.style.color="black";
             }
         }
     </script>

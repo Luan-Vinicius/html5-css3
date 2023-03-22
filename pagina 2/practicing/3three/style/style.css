@@ -12,7 +12,11 @@
     from{left:0px;}
     to{left: 425px;}
 }
-*{margin: 0px;text-decoration: none;}
+*{
+    margin: 0px;
+    padding:0px;
+    text-decoration: none;
+}
 :root{
     --Cor1: white;
     --Cor2: Black;
@@ -25,34 +29,40 @@
 }
 body{
     font-family:Arial, Helvetica, sans-serif;
-    margin: 0px;
+    width:100vw;
+    height: 100vh;
     background-color: rgb(230 248 178);
-}
-.spc{
-    margin: 0px 0px 15px 0px;
 }
 /*========= HEADER =============*/
 header{
-    background-color: rgb(112 145 118);padding: 4% 0px;
-    max-width: 4650px;
-    max-height:228px;
-    
-}#forma-titulo{
-    margin: 0px auto 0px auto;
-    font-family:"Song of Coronos";
-    font-size: 4em;
-    text-align: left;
-    position: relative;
-    text-shadow: 0px 2px 1px white;
-    animation: move_forma_titulo 2s;
-    animation-fill-mode: forwards;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+
+    background-color: rgb(112 145 118);
+    width: inherit;
+    height:150px;
+
+    text-align: center;
 }
-nav{
-    background-color: var(--Cor3); box-shadow: 0px 3px 2px rgba(0, 0, 0, 0.527);
-    padding: 10px 10px;
+#forma-titulo{
+    display: inline-block;
+    vertical-align: baseline;
+    height: 105px;
+    margin-top:30px;
+
+    font-family: 'Song of Coronos';
+    font-size: 3em;
 }
-nav>a{
-    padding: 7px 15px;
+header nav{
+    display: flex;
+    align-items:center;
+    justify-content: space-evenly;
+    background-color: var(--Cor3);
+    height: 45px;
+}
+header nav a{
+    padding:7px;
     color: var(--Cor2);
     font-weight: 600;
 }nav>a:hover{
@@ -61,30 +71,20 @@ nav>a{
     animation:fadein 0.75s;
 }
 /*============= MAIN ===============*/
-#main_conf1{
-    background-color: white; box-shadow: 0px 3px 2px rgba(0, 0, 0, 0.527);
-    margin: 2px auto 0px auto;
-    max-width: 600px;
-    padding:20px;
-}#main_conf2{
-    background-color: white; box-shadow: 0px 3px 2px rgba(0, 0, 0, 0.527);
-    margin: 2px auto 0px auto;
-    max-width: 2000px;
-    padding:20px;
-}#img1{
+#main{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    background-color: white;
+    width:500px;
+    height:inherit;
+    padding:0px 20px;
+}
+#img1{
     outline: solid 1px black; border-radius:  10px; background-color: rgb(230 248 178);
     width: 400px; height: 250px;
-    margin: 0px 20px 0px 0px;
     float: left;
 }article{
-    font-size:1.5em;
+    font-size:1em;
     text-align:justify;
 }
-/*<main class="main_paleta_nd">
-            <h3>Paleta de cores</h3>
-            <p id="cor1"> rgb(112,78,46) </p>
-            <p id="cor2"> rgb(121 116 92) </p>
-            <p id="cor3"> rgb(230 248 178) </p>
-            <p id="cor4"> rgb(205 231 127) </p>
-            <p id="cor5"> rgb(112 145 118) </p>
-        </main>*/
