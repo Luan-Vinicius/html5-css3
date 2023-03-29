@@ -38,9 +38,14 @@
     text-decoration: underline;
 }
 
-.footer a{
-    height: 25px;
-    margin-top: 10px;
+a{
+    color:white;
+}
 
-    color: white;
+spen{
+    display:none;
+}
+.estilocaminho:hover > spen{
+    display:inline;
+    
 }

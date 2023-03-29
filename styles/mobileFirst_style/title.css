@@ -1,9 +1,8 @@
 @charset "UTF-8";
-.header .box h1{
-    font-size: 2em;
-
+.titulo{
     color:white;
+    font-size: 2em;
 }
-.main #titulo{
-    font-size:2em;
+.main .titulo{
+    color:black;
 }

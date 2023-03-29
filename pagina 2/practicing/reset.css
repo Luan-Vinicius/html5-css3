@@ -1,0 +1,11 @@
+@charset "UTF-8";
+
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 100%;
+}
+.footer{
+    height:100px;
+}
