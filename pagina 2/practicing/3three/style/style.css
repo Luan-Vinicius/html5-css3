@@ -82,6 +82,12 @@ header nav a{
     background-color: white;
     width:500px;
     height:inherit;
+    padding-right: 17px;
+}
+@media screen and (min-width:501px){
+    #main{
+        padding:0px;
+    }
 }
 section{
     display: flex;
