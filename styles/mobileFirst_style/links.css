@@ -38,14 +38,14 @@
     text-decoration: underline;
 }
 
-a{
-    color:white;
-}
-
 spen{
     display:none;
 }
 .estilocaminho:hover > spen{
     display:inline;
     
+}
+
+.link{
+    color:white;
 }

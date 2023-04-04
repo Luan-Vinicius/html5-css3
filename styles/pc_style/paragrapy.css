@@ -3,4 +3,7 @@
     .header .box p{
         font-size: 1em;
     }
+    br{
+        display: none;
+    }
 }
