@@ -1,0 +1,13 @@
+@charset "UTF-8";
+html{
+    width: 100vw;
+    height: 100vh;
+    background-color: lightslategrey
+}
+body{
+    background-color: #3A3A3A;
+    width: 100%;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+}
