@@ -1,0 +1,27 @@
+@charset "UTF-8";
+.mold-shape{
+    background-color: blue;
+    width: 52px;
+    height: 52px;
+    border: 2px solid #000;
+    box-sizing: border-box;
+    margin-top:25px;
+}
+.mold-shape._bar{
+    background-color: #CEB02A;
+    width: 130px;
+}
+.mold-shape._mediumBar{
+    width: 75px;
+}
+.mold-shape._noForm{
+    background-color: unset;
+    border: unset;
+}
+.mold-shape._seta{
+    width: 30px;
+    height: 30px;
+    box-shadow: 3px 3px 0px #000;
+    cursor: pointer;
+    margin-top:45px;
+}

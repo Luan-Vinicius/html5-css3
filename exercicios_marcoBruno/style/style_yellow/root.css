@@ -1,0 +1,16 @@
+@charset "UTF-8";
+/*
+#ED1C24 vermelho red
+#FDFFFC branco white
+#1C5D99 azul blue
+#F1D302 amarelo yellow
+#020100 preto black
+*/
+/*VARIAVEIS*/
+:root{
+    --white_or_black:black;
+    --yellow_or_red:rgb(221, 192, 3);
+    --yellow_or_red_hover:#ffe747;
+    --blue:rgb(46 53 152);
+    --icon_img:url(../../imgs/pixil-frame-0-yellow.png);
+}

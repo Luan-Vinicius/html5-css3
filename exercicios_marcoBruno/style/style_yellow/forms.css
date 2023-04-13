@@ -1,0 +1,12 @@
+@charset "UTF-8";
+.forms{
+    width: 100%;
+    border: 2px solid black;
+    box-sizing: border-box;
+}
+.forms._input{
+    height: 30px;
+}
+.forms._textarea{
+    height: 160px;
+}

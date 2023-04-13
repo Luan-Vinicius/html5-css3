@@ -1,0 +1,14 @@
+@charset "UTF-8";
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000;
+    height: 50px;
+}
+.figure._youtube{
+    margin: 0px 20px;
+}
+.footer .figure img{
+    width:25px;
+}

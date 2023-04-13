@@ -1,0 +1,13 @@
+@charset "UTF-8";
+#box-title>h2{
+    margin-top: 20px;
+
+    color:white;
+    font-size:0.9em;
+}
+.section_two>h2{
+    margin: 20px;
+
+    color: white;
+    font-family: 'press start 2p';
+}

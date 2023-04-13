@@ -1,0 +1,19 @@
+@charset "UTF-8";
+.gallery-imgs{
+    position: relative;
+    left: 50%;
+    top:50%;
+    transform: translate(-50%, -50%);
+    height: 50px;
+}
+.gallery-imgs._icocaelum{
+    height: 52px;
+}
+.gallery-imgs._seta{
+    width: 15px;
+    height: unset;
+}
+.gallery-imgs._bar{
+    width: 100px;
+    height: unset;
+}

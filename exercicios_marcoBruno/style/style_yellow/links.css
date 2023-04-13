@@ -1,0 +1,13 @@
+@charset "UTF-8";
+.opts{
+    display: inline-flex;
+    align-items: center;
+    color: white;
+}
+.opts::before{
+    content: "";
+    background-color:var(--yellow_or_red);
+    width: 10px;
+    height: 10px;
+    margin:10px;
+}

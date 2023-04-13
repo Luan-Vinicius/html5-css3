@@ -1,0 +1,18 @@
+@charset "UTF-8";
+/*
+PALETA DE CORES
+#ED1C24 vermelho red
+#FDFFFC branco white
+#1C5D99 azul blue
+#F1D302 amarelo yellow
+#020100 preto black
+*/
+
+/*VARIAVEIS*/
+:root{
+    --white_or_black:white;
+    --yellow_or_red:#ED1C24;
+    --yellow_or_red_hover:#b9161c;
+    --blue:rgb(46 53 152);
+    --icon_img:url(../../imgs/pixil-frame-0-red.png);
+}

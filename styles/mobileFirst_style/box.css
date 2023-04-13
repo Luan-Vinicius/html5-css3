@@ -1,4 +1,7 @@
 @charset "UTF-8";
-.main #list_exerc{
+.main #list_exerc_guanabara{
+    display: none;
+}
+.main #list_exerc_marcoBruno{
     display: none;
 }

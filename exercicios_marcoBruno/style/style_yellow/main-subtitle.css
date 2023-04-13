@@ -1,0 +1,29 @@
+@charset "UTF-8";
+.main-subtitle{
+    margin-top: 30px;
+
+    font-family: 'press start 2p';
+    color:white;
+    font-size:0.9em;
+}
+.main-subtitle._two{
+    margin-bottom: 20px;
+
+    font-size:1.5em;
+    color: white;
+}
+.main-subtitle._three{
+    display: inline-block;
+    margin: 0px;
+    width: 52px;
+
+    font-size:0.8em;
+    text-align: center;
+    text-shadow: 2px 2px 0px black;
+}
+.main-subtitle._three._op2{
+    width:75px
+}
+.main-subtitle._three._op3{
+    width:130px
+}

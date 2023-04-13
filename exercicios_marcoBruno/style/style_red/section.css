@@ -1,0 +1,18 @@
+@charset "UTF-8";
+section{
+    border-top: solid 7px black;
+    height:500px;
+}
+.section_one{
+    background-image:url(../../imgs/photo.jpg);
+    background-repeat:no-repeat;
+    background-size: 100% 100%;
+}
+.section_two{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #1C5D99;
+    border-bottom: solid 7px var(--yellow_or_red);
+    text-align: center;
+}

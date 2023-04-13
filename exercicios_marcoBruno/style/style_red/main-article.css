@@ -1,0 +1,18 @@
+@charset "UTF-8";
+.main-article{
+    width: 700px;
+    position: relative;
+    top:110px;
+
+    color: white;
+    text-align: justify;
+}
+.main-article._two{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+
+    width: 95%;
+    height: 75%;
+    top:25px;
+}

@@ -1,0 +1,22 @@
+@charset "UTF-8";
+.button{
+    display: inline-block;
+    background-color:var(--yellow_or_red);
+    width: 170px;
+    height:60px;
+    line-height: 60px;
+    box-shadow: 3px 3px 0px black;
+    padding:0px 10px;
+
+    color:var(--white_or_black);
+    text-align: center;
+}
+#box_buttons>.button{
+    width: 130px;
+}
+.button:hover{
+    background-color:var(--yellow_or_red_hover);
+    font-size:1.1em;
+    font-weight: 900;
+    padding: 0px 10px;
+}
