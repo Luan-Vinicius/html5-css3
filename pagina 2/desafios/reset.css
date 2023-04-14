@@ -1,12 +1,12 @@
 @charset "UTF-8";
 
-.main{
+.main-main{
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
     height: 100%;
 }
-.footer{
+.main-footer{
     height:100px;
     flex-direction: column;
     align-items:center;

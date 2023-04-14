@@ -1,9 +1,9 @@
 @charset "UTF-8";
 @media screen and (min-width:1200px){
-    .title{
+    .main-title{
         font-size:4em;
     }
-    .title._main{
+    .main-title._option1{
         font-size:3em;
     }
 }

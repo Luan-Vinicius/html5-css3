@@ -1,5 +1,5 @@
 @charset "UTF-8";
-header{
+.main-header{
     display: flex;
     justify-content: space-around;
     align-items: center;

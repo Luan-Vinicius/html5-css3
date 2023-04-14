@@ -1,8 +1,8 @@
 @charset "UTF-8";
-.title{
+.main-title{
     color:white;
     font-size: 1.7em;
 }
-.title._main{
+.main-title._option1{
     color:black;
 }

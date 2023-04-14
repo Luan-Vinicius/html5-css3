@@ -1,6 +1,6 @@
 @charset "UTF-8";
 @media screen and (min-width:1200px){
-    .footer{
+    .main-footer{
         justify-content: space-evenly;
         font-size: 2em;
     }

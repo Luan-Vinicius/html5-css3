@@ -1,5 +1,5 @@
 @charset "UTF-8";
-.footer{
+.main-footer{
     display: flex;
     justify-content: space-around;
     align-items: center;

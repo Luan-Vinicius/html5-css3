@@ -1,7 +1,7 @@
 @charset "UTF-8";
-.estilocaminho{/*A letra desses elementos são da cor Preto*/
+.estilocaminho{
     color: black;
-}.estilocaminho:hover{                      /*estilo de todos os sub-titulos do Main principal quando HOVER for ativado"*/
+}.estilocaminho:hover{                      /*estilo dos exercicios quando HOVER for ativado"*/
     color:rgb(245,230,232);
     text-shadow: 0px 0px 7px black;
     font-size: 1.1em;
@@ -38,10 +38,10 @@
     text-decoration: underline;
 }
 
-spen{
+span{
     display:none;
 }
-.estilocaminho:hover > spen{
+.estilocaminho:hover > span{
     display:inline;
     
 }
