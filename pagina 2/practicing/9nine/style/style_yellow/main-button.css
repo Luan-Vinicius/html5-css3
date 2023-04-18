@@ -20,6 +20,9 @@
     height: 40px;
     line-height: 40px;
     padding: 0px;
+    
+    font-size:1em;
+    font-weight: 700;
 }
 .main-button._three:hover{
     background-color:var(--yellow_or_red_hover);
