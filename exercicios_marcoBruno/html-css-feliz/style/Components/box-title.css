@@ -1,0 +1,9 @@
+@charset "UTF-8";
+.box-title{
+    background: url(../../imgs/photo2.jpg) no-repeat;
+    background-size: 66vw;
+    height: inherit;
+    width: 66%;
+    border-right:10px solid black;
+    box-sizing: border-box;
+}

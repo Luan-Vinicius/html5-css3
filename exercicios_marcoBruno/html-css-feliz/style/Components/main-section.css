@@ -1,0 +1,9 @@
+@charset "UTF-8";
+.main-section{
+    display: flex;
+
+    background: url(../../imgs/photo.jpg) no-repeat;
+    background-size: 100vw;
+    height: 795px;
+    border-bottom: 10px solid black;
+}

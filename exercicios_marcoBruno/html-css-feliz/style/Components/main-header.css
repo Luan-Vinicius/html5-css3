@@ -7,7 +7,7 @@
     box-sizing: border-box;
     width: inherit;
     height: 80px;
-    padding:0px 20px;
+    padding:0px 40px;
     background-color: #7C5E99;
 }
 .main-header::after{

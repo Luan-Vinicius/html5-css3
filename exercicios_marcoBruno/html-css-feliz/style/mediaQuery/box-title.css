@@ -1,0 +1,6 @@
+@charset "UTF-8";
+@media screen and (max-width:1024px){
+    .box-title{
+        border-right:5px solid black;
+    }
+}
