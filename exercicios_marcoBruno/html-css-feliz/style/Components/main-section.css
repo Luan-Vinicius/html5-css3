@@ -7,3 +7,10 @@
     height: 795px;
     border-bottom: 10px solid black;
 }
+.main-section._skills{
+    flex-direction: column;
+    align-items: center;
+
+    background:unset;
+    background-color:#F25A70;
+}

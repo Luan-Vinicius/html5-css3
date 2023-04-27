@@ -1,0 +1,11 @@
+@charset "UTF-8";
+.progress-bar{
+    height: 30px;
+    border: 2px black solid;
+}
+.progress-bar::-webkit-progress-bar{
+    background-color: purple;
+}
+.progress-bar::-webkit-progress-value{
+    background-color:red;
+}

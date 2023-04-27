@@ -1,0 +1,12 @@
+@charset "UTF-8";
+.main-figure{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    width: 240px;
+    height: 75px;
+}
+.main-figure img{
+    width: 60px;
+}

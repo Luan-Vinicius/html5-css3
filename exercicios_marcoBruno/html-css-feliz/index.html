@@ -12,6 +12,12 @@
     <link rel="stylesheet" href="style/Components/main-button.css">
     <link rel="stylesheet" href="style/Components/main-section.css">
     <link rel="stylesheet" href="style/Components/box-title.css">
+    <link rel="stylesheet" href="style/Components/main-title.css">
+    <link rel="stylesheet" href="style/Components/main-subtitle.css">
+    <link rel="stylesheet" href="style/Components/main-article.css">
+    <link rel="stylesheet" href="style/Components/box-skills.css">
+    <link rel="stylesheet" href="style/Components/main-figure.css">
+    <link rel="stylesheet" href="style/Components/progress-bar.css">
     <link rel="stylesheet" href="style/link.css">
     <link rel="stylesheet" href="style/fonts.css">
 
@@ -33,8 +39,57 @@
     </header>
     <section class="main-section">
         <div class="box-title">
-
+            <article class="title">
+                <h1 class="main-title">Marco Bruno</h1>
+                <h2 class="main-subtitle">FrontEnd Developer</h2>
+            </article>
+            <div>
+                <button class="main-button" href="#">Download CV</button>
+                <button class="main-button" href="#">Contatos</button>
+            </div>
         </div>
+    </section>
+    <section class="main-section _skills">
+        <h1 class="main-title _opt1">Skills</h1>
+        <article class="box-skills">
+            <div>
+                <figure class="main-figure">
+                    <img src="imgs/ico_html5-pixelArt.png" alt="">
+                    <figcaption>
+                        <p>HTML</p>
+                        <progress class="progress-bar" max="100" value="50"></progress>
+                    </figcaption>
+                </figure>
+                
+                <figure class="main-figure">
+                    <img src="imgs/ico_css3-pixelArt.png" alt="">
+                </figure>
+                <figure class="main-figure">
+                    <img src="imgs/ico_js-pixelArt.png" alt="">
+                </figure>
+                <figure class="main-figure">
+                    <img src="imgs/ico_react-pixelArt.png" alt="">
+                </figure>
+            </div>
+            <div>
+                <figure class="main-figure">
+                    <img src="imgs/ico_nodejs-pixelArt.png" alt="">
+                    <figcaption>
+                        <p>NodeJS</p>
+                        <progress class="progress-bar" max="100" value="50">
+                    </figcaption>
+                </figure>
+                <figure class="main-figure">
+                    <img src="imgs/ico_tdd-pixelArt.png" alt="">
+                </figure>
+                <figure class="main-figure">
+                    <img src="imgs/ico_restapi-pixelArt.png" alt="">
+                </figure>
+                <figure class="main-figure">
+                    <img src="imgs/ico_ux-pixelArt.png" alt="">
+                </figure>
+            </div>
+        </article>
     </section>
 </body>
 </html>

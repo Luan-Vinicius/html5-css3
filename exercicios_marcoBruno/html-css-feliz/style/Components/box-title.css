@@ -1,9 +1,37 @@
 @charset "UTF-8";
 .box-title{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
     background: url(../../imgs/photo2.jpg) no-repeat;
     background-size: 66vw;
     height: inherit;
     width: 66%;
     border-right:10px solid black;
     box-sizing: border-box;
+}
+.box-title .title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+
+    background-color: #3A4042;
+    margin-top: -100px;
+    margin-right: 100px;
+    padding: 10px;
+    width: 450px;
+    height: 100px;
+    box-shadow: 5px 5px 0px black;
+}
+.box-title div{
+    display: flex;
+    justify-content:space-evenly;
+
+    margin-top: 38px;
+    margin-right: 100px;
+    width: 490px;
 }

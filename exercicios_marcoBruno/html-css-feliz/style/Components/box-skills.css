@@ -1,0 +1,7 @@
+@charset "UTF-8";
+.box-skills{
+    display: flex;
+    justify-content: space-evenly;
+    
+    width: 720px;
+}

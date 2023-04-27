@@ -1,0 +1,13 @@
+@charset "UTF-8";
+.main-title{
+    font-family: 'Press Start 2P';
+    color: #F25A70;
+    font-size: 30px;
+    text-shadow: 4px 4px 0px black;
+}
+.main-title._opt1{
+    color: white;
+    font-size: 40px;
+    margin-top: 50px;
+    text-shadow: none;
+}
