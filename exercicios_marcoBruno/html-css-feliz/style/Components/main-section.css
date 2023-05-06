@@ -10,7 +10,26 @@
 .main-section._skills{
     flex-direction: column;
     align-items: center;
+    justify-content: space-evenly;
 
     background:unset;
     background-color:#F25A70;
+    border-bottom: 10px solid #7C5E99;
+}
+.main-section._projects{
+    flex-direction: column;
+    align-items:center;
+    justify-content: space-evenly;
+
+    background: unset;
+    background-color: black;
+    border-bottom: 10px solid #F25A70;
+    height: 350px;
+}
+.main-section._about{
+    flex-direction: column;
+    text-align: center;
+
+    background: unset;
+    background-color: #7C5E99;
 }

@@ -1,0 +1,11 @@
+@charset "UTF-8";
+.imgsProjeto{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+    width: 100%;
+}
+.imgsProjeto img{
+    width: 210px;
+}

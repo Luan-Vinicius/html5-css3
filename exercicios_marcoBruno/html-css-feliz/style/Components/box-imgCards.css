@@ -1,0 +1,27 @@
+@charset "UTF-8";
+
+.box-imgCards{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: aliceblue;
+}
+
+.box-imgCards .figure .img{
+    border: 3px solid black;
+    box-sizing: border-box;
+    height:79px;
+}
+.box-imgCards .figure .img._locaweb{
+    background-color: #CEB02A;
+    padding: 20px 15px;
+    
+}
+.box-imgCards .figure .img._ninja{
+    background-color: #F25A70;
+    width: 125px;
+    padding: 5px;
+}
+.box-imgCards .figure .img._collab{
+    background-color: #F25A70;
+    padding: 5px;
+}

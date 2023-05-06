@@ -1,0 +1,10 @@
+@charset "UTF-8";
+
+#arrowLeft::after{
+    content: "";
+    width: 25px;
+    border-bottom: 50px solid rgba(255, 0, 0, 0);
+    border-top: 50px solid rgba(0, 0, 255, 0);
+    border-right: 50px solid green;
+
+}

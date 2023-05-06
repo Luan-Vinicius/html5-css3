@@ -7,6 +7,17 @@
     width: 240px;
     height: 75px;
 }
-.main-figure img{
+.main-figure .imgSkills{
     width: 60px;
+}
+.main-figure figcaption{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: inherit;
+
+}
+.main-figure figcaption p{
+    color: white;
+    font-family: 'Press Start 2P';
 }
