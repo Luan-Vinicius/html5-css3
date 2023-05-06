@@ -1,0 +1,11 @@
+@charset "UTF-8";
+.carrosel{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+    width: 95%;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+}
