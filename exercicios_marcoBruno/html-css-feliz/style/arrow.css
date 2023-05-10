@@ -1,10 +1,14 @@
 @charset "UTF-8";
 .arrow{
-    background-color: #F25A70;
+    background-color: #f25a71;
     box-shadow: 3px 3px 0px black;
     width: 40px;
     height: 40px;
     margin-top: 55px;
+    cursor: pointer;
+}
+.arrow:hover{
+    transform: scale(0.95);
 }
 #left::before{
     content: "";
@@ -18,7 +22,7 @@
     border-right: 25px solid white;
     position: relative;
     left: -9px;
-    top: 5px
+    top: 5px;
 }
 #right::before{
     content: "";
