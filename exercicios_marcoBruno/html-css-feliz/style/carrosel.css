@@ -1,11 +1,26 @@
 @charset "UTF-8";
 .carrosel{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-items: center;
     
+    margin-top: 50px;
     width: 95%;
     position: relative;
     left: 50%;
     transform: translate(-50%);
+}
+.carrosel::after{
+    content: "";
+    width: 95%;
+    border: 2px solid black;
+    position: absolute;
+    top: 22px;
+}
+.carrosel::before{
+    content: "";
+    width: 105%;
+    border: 2px dashed black;
+    position: absolute;
+    top: 22px;
 }

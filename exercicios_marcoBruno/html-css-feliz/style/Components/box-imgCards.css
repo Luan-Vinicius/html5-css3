@@ -2,10 +2,17 @@
 
 .box-imgCards{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
 
-    width: 88%;
+    width: 100%;
     overflow: hidden;
+}
+
+.box-imgCards .gallery{
+    display: flex;
+    justify-content: space-around;
+
+    width: 98%;
 }
 
 .box-imgCards .figure{
@@ -35,25 +42,6 @@
 .box-imgCards .figure .img._collab{
     background-color: #F25A70;
     padding: 5px;
-}
-
-.box-imgCards::after{
-    content:'';
-    width: 95%;
-    border: 2px solid black;
-    position: absolute;
-    left: 50%;
-    transform: translate(-50%);
-    top:22px
-}
-.box-imgCards::before{
-    content:'';
-    width: 105%;
-    border: 2px dashed black;
-    position: absolute;
-    left: 50%;
-    transform: translate(-50%);
-    top:22px
 }
 .box-imgCards .figure::after{
     content: '';

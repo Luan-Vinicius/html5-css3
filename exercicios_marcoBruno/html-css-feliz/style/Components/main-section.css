@@ -32,4 +32,10 @@
 
     background: unset;
     background-color: #7C5E99;
+    padding-top: 50px;
+}
+.main-section._contact{
+    background:unset;
+    background-color:#3A4042;
+    border-bottom: unset;
 }
