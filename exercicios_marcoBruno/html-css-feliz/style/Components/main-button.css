@@ -21,3 +21,14 @@
     transform: scale(1.050);
     box-shadow: 1px 1px 0px black;
 }
+.main-button._sectionContact{
+    width: 100%;
+    height: 35px;
+    line-height: 35px;
+}
+.main-button._sectionContact:hover{
+    width: 100%;
+    height: 35px;
+    line-height: 35px;
+    transform: unset;
+}

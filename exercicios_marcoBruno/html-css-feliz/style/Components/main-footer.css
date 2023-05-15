@@ -1,0 +1,17 @@
+@charset "UTF-8";
+.main-footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #000;
+    height: 50px;
+}
+.main-footer div{
+    display: flex;
+    justify-content: space-between;
+    width: 150px;
+}
+.main-footer div img{
+    width: 30px;
+}

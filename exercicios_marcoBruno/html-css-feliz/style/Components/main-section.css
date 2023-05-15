@@ -4,7 +4,7 @@
 
     background: url(../../imgs/photo.jpg) no-repeat;
     background-size: 100vw;
-    height: 795px;
+    height: 550px;
     border-bottom: 10px solid black;
 }
 .main-section._skills{
@@ -35,6 +35,10 @@
     padding-top: 50px;
 }
 .main-section._contact{
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+
     background:unset;
     background-color:#3A4042;
     border-bottom: unset;
