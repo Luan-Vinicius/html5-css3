@@ -4,8 +4,8 @@
         font-size: 12px;
     }
     .link::before{
-        width: 10px;
-        height: 10px;
-        margin: 10px;
+        width: 8px;
+        height: 8px;
+        margin: 8px;
     }
 }
