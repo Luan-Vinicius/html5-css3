@@ -1,0 +1,11 @@
+@charset "UTF-8";
+@media screen and (min-width:320px) and (max-width:480px){
+    .main-header{
+        padding: 35px 20px;
+        height: 70px;
+        
+    }
+    .main-header .img{
+        width: 50px;
+    }
+}
