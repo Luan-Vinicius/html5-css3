@@ -1,11 +1,11 @@
 @charset "UTF-8";
 @media screen and (min-width:320px) and (max-width:480px){
     .link{
-        font-size: 10px;
+        font-size: 12px;
     }
     .link::before{
-        width: 5px;
-        height: 5px;
-        margin: 5px;
+        width: 10px;
+        height: 10px;
+        margin: 10px;
     }
 }

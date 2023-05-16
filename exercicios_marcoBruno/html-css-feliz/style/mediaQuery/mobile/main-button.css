@@ -1,14 +1,14 @@
 @charset "UTF-8";
 @media screen and (min-width:320px) and (max-width:480px){
     .main-button{
-        width: 133px;
-        height: 40px;
+        width: 175px;
+        height: 50px;
         box-shadow:2px 2px 0px black;
 
-        font-size:9px;
+        font-size:12px;
         line-height: 40px;
     }
     .main-button:hover{
-        font-size:10px
+        font-size:13px
     }
 }
