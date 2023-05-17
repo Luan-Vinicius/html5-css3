@@ -1,17 +1,18 @@
 @charset "UTF-8";
 @media screen and (min-width:320px) and (max-width:480px){
     .box-title{
-        background:unset;
-        border-right:0px;
+        background-size: cover;
+        background-position-x: -60px;
+        width: 71%;
     }
     .box-title .title{
         width: 150px;
         height: 50px;
-        margin:0px;
-        margin-top: -65px;
+        margin-left: 40px;
     }
     .box-title div{
         width: 200px;
-        margin: 10px 0px;
+        margin-top: 20px;
+        margin-left: 40px;
     }
 }
