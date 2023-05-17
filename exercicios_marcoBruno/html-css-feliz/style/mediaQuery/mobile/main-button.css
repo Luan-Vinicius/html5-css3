@@ -11,4 +11,11 @@
     .main-button:hover{
         font-size:13px
     }
+    .main-section .box-title div .main-button{
+        width:75px;
+        height: 30px;
+        line-height: 30px;
+
+        font-size: 10px;
+    }
 }

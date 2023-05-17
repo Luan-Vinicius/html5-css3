@@ -1,0 +1,7 @@
+@charset "UTF-8";
+@media screen and (min-width:320px) and (max-width:480px){
+    .main-subtitle{
+        font-size: 8px;
+        text-shadow: 1px 1px 0px black;
+    }
+}
