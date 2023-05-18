@@ -1,0 +1,19 @@
+@charset "UTF-8";
+@media screen and (min-width: 320px) and (max-width:480px){
+    .main-figure{
+        width:160px;
+        height:62.5px;
+    }
+    .main-figure figcaption{
+        justify-content: space-evenly;
+
+        width: 120px;
+        height: 50px;
+    }
+    .main-figure figcaption p{
+        font-size: 10px;
+    }
+    .main-figure .imgSkills{
+        width: 30px;
+    }
+}
