@@ -2,7 +2,7 @@
 .main-section{
     display: flex;
 
-    background: url(../../imgs/photo.jpg) no-repeat;
+    background: url(../../../imgs/photo.jpg) no-repeat;
     background-size: 100vw;
     height: 550px;
     border-bottom: 10px solid black;
