@@ -8,4 +8,7 @@
     .main-section._projects{
         height: 200px;
     }
+    .main-section._about{
+        padding-top: 25px;
+    }
 }

@@ -1,0 +1,15 @@
+@charset "UTF-8";
+@media screen and (min-width:320px) and (max-width:480px){
+    .carrosel{
+        background-color: blue;
+        margin-top:25px;
+    }
+    .carrosel::after{
+        border: 1px solid black;
+        top: 20px;
+    }
+    .carrosel::before{
+        border: 1px dashed black;
+        top: 20px;
+    }
+}

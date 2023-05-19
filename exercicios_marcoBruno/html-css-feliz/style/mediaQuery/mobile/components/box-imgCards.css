@@ -1,0 +1,21 @@
+@charset "UTF-8";
+@media screen and (min-width:320px) and (max-width:480px){
+    .box-imgCards .figure{
+        height: 75px;
+    }
+    .box-imgCards .figure .img{
+        height: 35px;
+        margin-top: 25px;
+    }
+    .box-imgCards .figure .img._locaweb{
+        padding: 10px 5px;
+    }
+    .box-imgCards .figure .img._ninja{
+        width: 50px;
+    }
+    .box-imgCards .figure::after{
+        border: 1px dashed black;
+        width: 19px;
+        top:-49px;
+    }
+}
