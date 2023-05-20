@@ -2,6 +2,7 @@
 @media screen and (min-width:320px) and (max-width:480px){
     .main-footer{
         height: 35px;
+        background-color: red;
     }
     .main-footer div{
         width: 115px;
