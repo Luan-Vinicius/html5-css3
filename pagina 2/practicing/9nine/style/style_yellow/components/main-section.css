@@ -5,9 +5,12 @@
     background-size: 100% 100%;
     border-bottom: solid 7px black;
     height:500px;
+    
+    display: none;
 }
 .main-section._two{
     display: flex;
+    display: none;
     flex-direction: column;
     align-items: center;
     
@@ -17,6 +20,7 @@
 }
 .main-section._three{
     display: flex;
+    display: none;
     flex-direction: column;
     align-items: center;
 
@@ -27,6 +31,7 @@
 }
 .main-section._four{
     display: flex;
+    display: none;
     flex-direction: column;
     align-items: center;
     
@@ -36,6 +41,7 @@
 }
 .main-section._five{
     display: flex;
+    display: none;
     flex-direction:column;
     align-items: center;
 

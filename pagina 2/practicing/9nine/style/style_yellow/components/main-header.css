@@ -12,8 +12,9 @@
 #img{
     width: 60px;
     height: 60px;
-    margin: 10px 20px;
-    background-image:var(--icon_img);
+    margin-left:10px;
+    margin-top: 10px;
+    background-image:url(../../../imgs/pixil-frame-0-yellow.png);
     background-size:contain;
     background-repeat:no-repeat;
 }
