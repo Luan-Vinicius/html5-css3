@@ -6,10 +6,9 @@
     height:40px;
     line-height: 40px;
     box-shadow: 3px 3px 0px black;
-    padding:0px 2px;
 
     color:var(--white_or_black);
-    font-size: 1em;
+    font-size: 1.1em;
     text-align: center;
 }
 .main-button._two{
@@ -34,8 +33,7 @@
 }
 .main-button:hover{
     background-color:var(--yellow_or_red_hover);
-    font-size: 1.05;
+    font-size: 1.15;
     font-weight: 900;
-    padding: 0px 2px;
     transform: scale(1.05);
 }
