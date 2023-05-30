@@ -6,6 +6,19 @@
     
     width: 75%;
 
-    font-size: 0.7em;
+    font-size: 0.85em;
     text-align: right;
+}
+.main-nav div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+    height: 70%;
+    width: 60%;
+}
+.main-nav div a{
+    display: inline-block;
+    text-align: left;
 }

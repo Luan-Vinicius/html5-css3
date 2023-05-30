@@ -4,7 +4,7 @@
     justify-content: space-evenly;
 
     background-color:var(--blue);
-    width: 100%;
+    width: inherit;
     height:80px;
     border-bottom: solid 7px black;
     
@@ -16,5 +16,4 @@
     background-image:url(../../../imgs/pixil-frame-0-yellow.png);
     background-size:contain;
     background-repeat:no-repeat;
-    margin-right: -15px;
 }

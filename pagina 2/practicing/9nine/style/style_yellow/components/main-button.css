@@ -8,8 +8,14 @@
     box-shadow: 3px 3px 0px black;
 
     color:var(--white_or_black);
-    font-size: 1.1em;
+    font-size: 1em;
     text-align: center;
+}
+.main-button:hover{
+    background-color:var(--yellow_or_red_hover);
+    font-size: 1.15;
+    font-weight: 900;
+    transform: scale(1.05);
 }
 .main-button._two{
     width: 130px;
@@ -30,10 +36,4 @@
     padding: 0px;
     font-size:1em;
     font-weight: 500;
-}
-.main-button:hover{
-    background-color:var(--yellow_or_red_hover);
-    font-size: 1.15;
-    font-weight: 900;
-    transform: scale(1.05);
 }

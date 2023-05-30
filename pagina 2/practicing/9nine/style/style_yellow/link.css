@@ -6,6 +6,7 @@
     color: white;
 }
 .link::before{
+    display: inline-block;
     content: "";
     background-color:var(--yellow_or_red);
     width: 5px;
