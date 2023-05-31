@@ -34,8 +34,9 @@
 }
 .main-button._three:hover{
     background-color:var(--yellow_or_red_hover);
-    
+    width: 100%;
+
     padding: 0px;
-    font-size:1em;
-    font-weight: 500;
+    font-weight: 900;
+    transform: scale(1.01);
 }

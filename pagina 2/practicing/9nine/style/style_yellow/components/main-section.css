@@ -38,7 +38,6 @@
 }
 .main-section._five{
     display: flex;
-    display: none;
     flex-direction:column;
     align-items: center;
 
