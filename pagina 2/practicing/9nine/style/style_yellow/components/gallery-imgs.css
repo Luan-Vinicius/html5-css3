@@ -4,16 +4,16 @@
     left: 50%;
     top:50%;
     transform: translate(-50%, -50%);
-    height: 50px;
+    height: 35px;
 }
 .gallery-imgs._icocaelum{
-    height: 52px;
+    height: 40px;
 }
 .gallery-imgs._seta{
     width: 15px;
     height: unset;
 }
 .gallery-imgs._bar{
-    width: 100px;
+    width: 65px;
     height: unset;
 }

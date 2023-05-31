@@ -1,9 +1,10 @@
 @charset "UTF-8";
 .main-article{
-    width: 700px;
+    width: 95%;
     position: relative;
-    top:110px;
+    top:50px;
 
     color: white;
     text-align: justify;
+    font-size: 0.6em;
 }

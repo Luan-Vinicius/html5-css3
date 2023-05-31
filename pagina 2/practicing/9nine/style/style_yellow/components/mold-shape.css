@@ -2,17 +2,17 @@
 .mold-shape{
     background-color: blue;
     width: 52px;
-    height: 52px;
+    height: 40px;
     border: 2px solid #000;
     box-sizing: border-box;
     margin-top:25px;
 }
 .mold-shape._bar{
     background-color: #CEB02A;
-    width: 130px;
+    width: 90px;
 }
 .mold-shape._mediumBar{
-    width: 75px;
+    width: 60px;
 }
 .mold-shape._noForm{
     background-color: unset;
