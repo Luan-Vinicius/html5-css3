@@ -18,7 +18,9 @@
     transform: scale(1.05);
 }
 .main-button._two{
-    width: 130px;
+    width: 80px;
+
+    font-size: 0.7em;
 }
 .main-button._three{
     display: block;

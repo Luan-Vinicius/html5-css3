@@ -1,20 +1,25 @@
 @charset "UTF-8";
 #boxTitle{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
     background-color: #3A4042;
-    width: 400px;
-    height:150px;
-    box-shadow: 7px 7px 0px black;
+    width: 175px;
+    height:75px;
+    box-shadow: 5px 5px 0px black;
     margin-top:50px;
 
     text-align: center;
-    text-shadow:3px 3px 0px black;
+    text-shadow:2px 2px 0px black;
     
 }
 #boxButtons{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    width: 400px;
+
+    width: 100%;
     margin-top: 40px;
 }
 #boxImgSemFoco{
@@ -22,10 +27,10 @@
     flex-direction: column;
     align-items: center;
 
-    background-image: url(../../imgs/photo2.jpg);
+    background: url(../../imgs/photo2.jpg) no-repeat;
     background-size:100% 100%;
-    background-position:left;
-    width:530px;
+    background-position: 0px -2px;
+    width:67%;
     height: inherit;
     border-right:solid 5px black;
     box-sizing: border-box;
