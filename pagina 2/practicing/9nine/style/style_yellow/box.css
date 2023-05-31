@@ -38,6 +38,5 @@
 #wrapper-Project{
     display: flex;
     justify-content: space-evenly;
-    width: 800px;
-    margin-top: 20px;
+    width: 100%;
 }

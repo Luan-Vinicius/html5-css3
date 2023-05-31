@@ -18,13 +18,13 @@
 }
 .main-section._three{
     display: flex;
-    display: none;
     flex-direction: column;
     align-items: center;
+    justify-content: space-evenly;
 
     background-image: none;
     background:black;
-    height: 320px;
+    height: 200px;
     border-bottom: solid 7px var(--yellow_or_red);
 }
 .main-section._four{
