@@ -1,0 +1,15 @@
+@charset "UTF-8";
+.box-title{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+    background-color: #3A4042;
+    width: 175px;
+    height:75px;
+    box-shadow: 5px 5px 0px black;
+    margin-top:50px;
+
+    text-align: center;
+    text-shadow:2px 2px 0px black;
+}

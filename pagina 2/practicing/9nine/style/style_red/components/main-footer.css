@@ -1,5 +1,5 @@
 @charset "UTF-8";
-.footer{
+.main-footer{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -9,6 +9,6 @@
 .figure._youtube{
     margin: 0px 20px;
 }
-.footer .figure img{
+.main-footer .figure img{
     width:25px;
 }

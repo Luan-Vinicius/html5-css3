@@ -1,11 +1,11 @@
 @charset "UTF-8";
-.link{
+.main-link{
     display: inline-flex;
     align-items: center;
     
     color: white;
 }
-.link::before{
+.main-link::before{
     display: inline-block;
     content: "";
     background-color:var(--yellow_or_red);

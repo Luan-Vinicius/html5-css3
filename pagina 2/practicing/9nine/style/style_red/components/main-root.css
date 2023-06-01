@@ -8,9 +8,9 @@
 */
 /*VARIAVEIS*/
 :root{
-    --white_or_black:black;
-    --yellow_or_red:rgb(221, 192, 3);
-    --yellow_or_red_hover:#ffe747;
+    --white_or_black:white;
+    --yellow_or_red:#ED1C24;
+    --yellow_or_red_hover:#b9161c;
     --blue:rgb(46 53 152);
-    --icon_img:url(../../imgs/pixil-frame-0-yellow.png);
+    --icon_img:url(../../../imgs/pixil-frame-0-red.png);
 }

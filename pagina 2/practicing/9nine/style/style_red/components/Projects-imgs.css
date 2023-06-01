@@ -1,0 +1,16 @@
+@charset "UTF-8";
+.img{
+    width: 100px;
+    height: 100px;
+    background: url(../../../imgs/firedlabs.png), no-repeat;
+    background-size: cover;
+    box-shadow: 5px 5px 0px white;
+}
+.img._two{
+    background:url(../../../imgs/collabcode.png), no-repeat;
+    background-size: cover;
+}
+.img._three{
+    background:url(../../../imgs/f7e0dfae879be8d4400757c5400ee673.jfif), no-repeat;
+    background-size:cover;
+}

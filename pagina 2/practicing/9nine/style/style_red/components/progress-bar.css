@@ -1,7 +1,8 @@
 @charset "UTF-8";
 .progress-bar{
-    height: 30px;
-    border: solid 5px black;
+    height: 20px;
+    width: 120px;
+    border: solid 3px black;
     
     
 }

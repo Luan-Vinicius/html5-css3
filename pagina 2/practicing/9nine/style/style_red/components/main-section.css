@@ -1,15 +1,16 @@
 @charset "UTF-8";
 .main-section{
-    background-image:url(../../imgs/photo.jpg);
+    background-image:url(../../../imgs/photo.jpg);
     background-repeat:no-repeat;
     background-size: 100% 100%;
     border-bottom: solid 7px black;
-    height:500px;
+    height:300px;
 }
 .main-section._two{
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: space-evenly;
     
     background-image: none;
     background-color: #1C5D99;
@@ -19,10 +20,11 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: space-evenly;
 
     background-image: none;
     background:black;
-    height: 320px;
+    height: 200px;
     border-bottom: solid 7px var(--yellow_or_red);
 }
 .main-section._four{

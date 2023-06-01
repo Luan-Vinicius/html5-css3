@@ -7,18 +7,8 @@
     padding:0px;
     text-decoration:none;
 }
-html{
-    width:100vw;
-}
-body{
-    background-color:lightgray;
-    position: absolute;
-    left:50%;
-    transform:translate(-50%);
-    width: 800px;
+html, body{
+    width: 100vw;
 
     font-family: "fira code";
-    font-weight:500;
-    
-    overflow-x: hidden;
 }

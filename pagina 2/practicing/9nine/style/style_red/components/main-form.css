@@ -1,0 +1,16 @@
+@charset "UTF-8";
+
+.main-form{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+
+    width: 95%;
+    height: 80%;
+    position: relative;
+    top:25px;
+    
+
+    color:white;
+    font-size: 0.7em;
+}

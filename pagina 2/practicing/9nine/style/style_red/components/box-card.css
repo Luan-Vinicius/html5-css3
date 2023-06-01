@@ -7,9 +7,9 @@
 .box-card::before{
     content: '';
     position: relative;
-    width: 20px;
+    width: 23px;
     border: 1px dashed black;
     text-align: center;
     transform: rotate(90deg);
-    top:36px;
+    top:33px;
 }

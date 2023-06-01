@@ -1,13 +1,15 @@
 @charset "UTF-8";
-.opts{
+.main-link{
     display: inline-flex;
     align-items: center;
+    
     color: white;
 }
-.opts::before{
+.main-link::before{
+    display: inline-block;
     content: "";
     background-color:var(--yellow_or_red);
-    width: 10px;
-    height: 10px;
-    margin:10px;
+    width: 5px;
+    height: 5px;
+    margin:5px;
 }

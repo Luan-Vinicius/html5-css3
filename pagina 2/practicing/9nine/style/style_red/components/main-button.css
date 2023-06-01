@@ -2,17 +2,25 @@
 .main-button{
     display: inline-block;
     background-color:var(--yellow_or_red);
-    width: 170px;
-    height:60px;
-    line-height: 60px;
+    width: 100px;
+    height:40px;
+    line-height: 40px;
     box-shadow: 3px 3px 0px black;
-    padding:0px 10px;
 
     color:var(--white_or_black);
+    font-size: 1em;
     text-align: center;
 }
+.main-button:hover{
+    background-color:var(--yellow_or_red_hover);
+    font-size: 1.15;
+    font-weight: 900;
+    transform: scale(1.05);
+}
 .main-button._two{
-    width: 130px;
+    width: 80px;
+
+    font-size: 0.7em;
 }
 .main-button._three{
     display: block;
@@ -20,17 +28,15 @@
     height: 40px;
     line-height: 40px;
     padding: 0px;
+    
+    font-size:1em;
+    font-weight: 700;
 }
 .main-button._three:hover{
     background-color:var(--yellow_or_red_hover);
-    
+    width: 100%;
+
     padding: 0px;
-    font-size:1.1em;
     font-weight: 900;
-}
-.main-button:hover{
-    background-color:var(--yellow_or_red_hover);
-    font-size:1.1em;
-    font-weight: 900;
-    padding: 0px 10px;
+    transform: scale(1.01);
 }
