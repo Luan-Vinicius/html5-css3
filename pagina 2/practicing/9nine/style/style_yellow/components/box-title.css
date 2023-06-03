@@ -1,15 +1,14 @@
 @charset "UTF-8";
 .box-title{
-    display: none;
+    display: flex;
     flex-direction: column;
     justify-content: space-evenly;
 
     position: relative;
-    left: 50%;
-    top: 30%;
+    left: -10px;
     background-color: #3A4042;
-    width: 175px;
-    height:50px;
+    width: 125px;
+    height:85px;
     box-shadow: 5px 5px 0px black;
     margin-top:50px;
 

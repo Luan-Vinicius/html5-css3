@@ -1,9 +1,12 @@
 @charset "UTF-8";
 #box-buttons{
-    display: none;
+    display: flex;
     flex-direction: row;
     justify-content: space-around;
 
+    position: relative;
+    left: 50%;
+    top:50px;
     width: 100%;
     margin-top: 40px;
 }
