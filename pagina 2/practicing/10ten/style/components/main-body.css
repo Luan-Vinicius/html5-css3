@@ -1,8 +1,8 @@
 @charset "UTF-8";
 .main-body{
     background-color: red;
-    width:375px;
-    height:500px;
+    width:100%;
+    height:615px;
     margin: 0px;
     padding: 0px;
 }

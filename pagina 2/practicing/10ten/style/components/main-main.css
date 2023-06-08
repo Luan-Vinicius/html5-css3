@@ -3,12 +3,27 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    align-items: center;
 
-    background-color: aquamarine;
-    width:inherit;
+    background-color: white;
+    width:100%;
     height:inherit;
 }
-p{
-    margin: 0px;
-    font-weight: 900;
+.main-main::before{
+    content: '';
+    position:absolute;
+    left: 0px;
+    background: url(../../imgs/lowresolution_orange.png) no-repeat;
+    width: 100px;
+    height: 178px;
+}
+.main-main::after{
+    content: '';
+    position:absolute;
+    right: 0px;
+    background: url(../../imgs/lowresolution_meet.png) no-repeat;
+    background-color: red;
+    background-position: right;
+    width: 100px;
+    height: 133px;
 }
