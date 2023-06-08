@@ -1,0 +1,14 @@
+@charset "UTF-8";
+.into-menu{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    align-items:center;
+
+    position: absolute;
+    top: 500px;
+
+    background-color: blue;
+    width: inherit;
+    height: 150px;
+}
