@@ -1,6 +1,14 @@
 @charset "UTF-8";
 .main-main{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
     background-color: aquamarine;
     width:inherit;
     height:inherit;
+}
+p{
+    margin: 0px;
+    font-weight: 900;
 }
