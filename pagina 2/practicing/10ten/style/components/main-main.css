@@ -13,17 +13,18 @@
     content: '';
     position:absolute;
     left: 0px;
+    top: 100px;
     background: url(../../imgs/lowresolution_orange.png) no-repeat;
     width: 100px;
-    height: 178px;
+    height: 195px;
 }
 .main-main::after{
     content: '';
     position:absolute;
     right: 0px;
+    top: 145px;
     background: url(../../imgs/lowresolution_meet.png) no-repeat;
-    background-color: red;
     background-position: right;
     width: 100px;
-    height: 133px;
+    height: 150px;
 }
