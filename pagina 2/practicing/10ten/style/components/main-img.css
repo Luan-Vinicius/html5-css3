@@ -1,9 +1,9 @@
 @charset "UTF-8";
 .main-img{
-    width: 270px;
+    width: 250px;
     height: 251px;
 }
 .main-img._opt1{
     position: absolute;
-    top: 50px;
+    top:200px
 }

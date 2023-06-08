@@ -9,7 +9,7 @@
     width:100%;
     height:100%;
 }
-.main-main::before{
+.main-main::after{
     content: '';
     position:absolute;
     left: 0px;
@@ -18,7 +18,7 @@
     width: 100px;
     height: 195px;
 }
-.main-main::after{
+.main-main::before{
     content: '';
     position:absolute;
     right: 0px;
