@@ -6,9 +6,9 @@
     align-items:center;
 
     position: absolute;
-    top: 400px;
+    top: 425px;
 
-    background-color: blue;
-    width: inherit;
-    height: 150px;
+    
+    width: 92%;
+    height: 250px;
 }

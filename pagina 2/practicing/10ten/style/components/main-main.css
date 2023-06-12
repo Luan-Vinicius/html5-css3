@@ -13,7 +13,7 @@
     content: '';
     position:absolute;
     left: 0px;
-    top: 80px;
+    top: 60px;
     background: url(../../imgs/lowresolution_orange.png) no-repeat;
     width: 100px;
     height: 195px;
@@ -22,7 +22,7 @@
     content: '';
     position:absolute;
     right: 0px;
-    top: 125px;
+    top: 105px;
     background: url(../../imgs/lowresolution_meet.png) no-repeat;
     background-position: right;
     width: 100px;
