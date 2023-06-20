@@ -1,0 +1,21 @@
+@charset "UTF-8";
+.main-header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    background: url(../../imgs/Maps.png), no-repeat;
+    background-size: cover;
+    height: 276px;
+    max-width: 500px;
+}
+.main-header > .container{
+    display: flex;
+}
+.main-header > .container._search-bar{
+    justify-content: center;
+    width:343px;
+    height:56px;
+    background-color: red;
+    border-radius: 30px;
+}

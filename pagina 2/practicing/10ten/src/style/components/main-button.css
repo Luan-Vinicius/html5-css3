@@ -14,3 +14,6 @@
     text-align: center;
     font-family: inter;
 }
+.main-button:hover{
+    background-color: #ff6e1b;
+}
