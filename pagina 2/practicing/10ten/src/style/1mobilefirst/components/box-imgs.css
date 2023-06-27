@@ -1,0 +1,10 @@
+@charset "UTF-8";
+.box-imgs{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    position: relative;
+    top: 80px;
+    width: inherit;
+}
