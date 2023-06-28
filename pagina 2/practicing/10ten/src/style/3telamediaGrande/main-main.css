@@ -1,7 +1,8 @@
 @charset "UTF-8";
 @media screen and (min-width: 769px) and (max-width:1024px){
     .main-main{
-        background-color: aquamarine;
         width: 360px;
+        border: 1px solid rgba(0, 0, 0, 0.322);
+        box-sizing: border-box;
     }
 }
