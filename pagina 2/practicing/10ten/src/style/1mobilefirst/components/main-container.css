@@ -9,4 +9,6 @@
 }
 .main-container._opt2{
     justify-content: center;
+    text-align: center;
+    width: 70%;
 }

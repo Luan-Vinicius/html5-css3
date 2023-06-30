@@ -1,9 +1,10 @@
 @charset "UTF-8";
 .search-bar{
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
+    align-items: center;
     width:343px;
     height:56px;
-    background-color: red;
+    background-color: white;
     border-radius: 30px;
 }
