@@ -1,0 +1,13 @@
+@charset "UTF-8";
+.age-groupOpts{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    line-height: 36px;
+}
+.age-groupOpts > .paragrapy{
+    color: #FF5C00;
+    font-weight: bold;
+    font-size: 14px;
+    font-family: inter;
+}

@@ -1,0 +1,17 @@
+@charset "UTF-8";
+.age-group{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 104px;
+    width: 90%;
+    border: 1px solid black;
+}
+.age-group > .title{
+    display: block;
+    width: 100%;
+    font-size: 18px;
+    font-weight: 700;
+    font-family: inter;
+}
