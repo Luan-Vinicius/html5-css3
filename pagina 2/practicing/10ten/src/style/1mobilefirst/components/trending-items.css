@@ -1,0 +1,29 @@
+@charset "UTF-8";
+.trending-items{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 44px;
+    width: 90%;
+}
+.trending-items > .title{
+    display: block;
+    font-size: 18px;
+    font-weight: 700;
+    font-family: inter;
+}
+.trending-items > ul{
+    display: flex;
+}
+.trending-items > ul > .ball{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color:#F0F0F0;
+    margin: 0px 5px;
+}
+.trending-items > ul > .ball:hover{
+    width:26px;
+    border-radius: 30px;
+    background-color: #ff5c00;
+}

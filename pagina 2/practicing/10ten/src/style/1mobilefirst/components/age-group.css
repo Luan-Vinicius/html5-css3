@@ -6,7 +6,6 @@
     align-items: center;
     height: 104px;
     width: 90%;
-    border: 1px solid black;
 }
 .age-group > .title{
     display: block;
