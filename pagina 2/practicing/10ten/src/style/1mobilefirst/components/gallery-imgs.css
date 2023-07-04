@@ -1,0 +1,9 @@
+@charset "UTF-8";
+.gallery-imgs{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 212px;
+    border: 1px solid black;
+}

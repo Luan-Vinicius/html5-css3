@@ -1,0 +1,15 @@
+@charset "UTF-8";
+.main-wrap{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    width: 137px;
+    height: 180px;
+    border: 1px solid black;
+}
+.main-wrap._BGlightYellow{
+    background-color: #FFF6E3;
+}
+.main-wrap._BGlightGreen{
+    background-color: #E5FFEA;
+}
