@@ -1,6 +1,7 @@
 @charset "UTF-8";
 .main-title{
-    font-family: "Inter";
-    font-size: 24px;
-    font-weight: 600;
+    width: 100%;
+    font-size: 18px;
+    font-weight: 700;
+    font-family: inter;
 }

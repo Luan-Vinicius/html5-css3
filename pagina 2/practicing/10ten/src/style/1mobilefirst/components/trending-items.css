@@ -14,12 +14,6 @@
 
     width: 90%;
 }
-.trending-items > div > .title{
-    display: block;
-    font-size: 18px;
-    font-weight: 700;
-    font-family: inter;
-}
 .trending-items > div > ul{
     display: flex;
 }
