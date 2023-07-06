@@ -5,14 +5,14 @@
     justify-content: space-between;
     align-items: center;
     height: 256px;
-    width: 90%;
+    width: 100%;
 }
 .trending-items > div{
     display: flex;
     justify-content: space-between;
     align-items: center;
 
-    width: 100%;
+    width: 90%;
 }
 .trending-items > div > .title{
     display: block;

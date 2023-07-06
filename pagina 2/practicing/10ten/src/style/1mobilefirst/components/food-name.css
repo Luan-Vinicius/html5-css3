@@ -1,0 +1,18 @@
+@charset "UTF-8";
+.food-name{
+    font-size: 18px;
+    font-family: inter;
+    font-weight: bold;
+}
+.food-name._burguer{
+    color:#E59A23;
+}
+.food-name._corn{
+    color:#419F25;
+}
+.food-name._soy{
+    color:#B88029;
+}
+.food-name._cookie{
+    color:#FC3B50;
+}

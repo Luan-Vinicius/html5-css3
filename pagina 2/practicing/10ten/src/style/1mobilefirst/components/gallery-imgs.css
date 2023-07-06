@@ -1,9 +1,11 @@
 @charset "UTF-8";
 .gallery-imgs{
+    overflow-y: hidden;
+}
+.gallery-imgs > div{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 100%;
+    width: 110%;
     height: 212px;
-    border: 1px solid black;
 }
