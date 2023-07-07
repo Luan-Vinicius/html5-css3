@@ -1,1 +1,12 @@
 @charset "UTF-8";
+.all-items{
+    display: flex;
+    flex-direction: column;
+
+    width: 90%;
+}
+.all-items > p{
+    font-family: inter;
+    font-size: 14px;;
+    color:#475467;
+}
