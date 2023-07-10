@@ -3,7 +3,11 @@
     display: flex;
     flex-direction: column;
 
+    width: 100%;
+}
+.all-items > .p, .main-title{
     width: 90%;
+    margin: auto;
 }
 .all-items > p{
     font-family: inter;

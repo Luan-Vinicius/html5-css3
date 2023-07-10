@@ -4,9 +4,11 @@
     justify-content: space-evenly;
     flex-direction: column;
     align-items: center;
+
     width: 137px;
     height: 180px;
     border-radius: 10px;
+    margin: 0px 5px;
 }
 .main-wrap > .burguer{
     color: #E59A23;
@@ -17,8 +19,20 @@
 .main-wrap._BGlightGreen{
     background-color: #E5FFEA;
 }
-.main-wrap._BGlightpink{
+.main-wrap._BGlightPink{
     background-color: #FFEFEE;
+}
+.main-wrap._BGlightBlue{
+    background-color: #E2F3F3;
+}
+.main-wrap._BGlightRed{
+    background-color: #FFEBF4;
+}
+.main-wrap._BGlightOrange{
+    background-color: #FFF2CA;
+}
+.main-wrap._BGlightGray{
+    background-color: #F8F6FF;
 }
 .main-wrap > .p{
     font-size: 12px;
