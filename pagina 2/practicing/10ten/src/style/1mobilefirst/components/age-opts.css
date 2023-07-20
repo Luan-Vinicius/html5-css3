@@ -11,8 +11,9 @@
     color: #FF5C00;
     font-weight: 700;
     font-family: inter;
+    border: none;
 }
-.age-opts:hover{
+._destaque{
     background-color: #FF5C00;
     color:#F9FAFB;
 }

@@ -1,7 +1,4 @@
 @charset "UTF-8";
-.gallery-imgs{
-    overflow-y: hidden;
-}
 .gallery-imgs > div{
     display: flex;
     align-items: center;
