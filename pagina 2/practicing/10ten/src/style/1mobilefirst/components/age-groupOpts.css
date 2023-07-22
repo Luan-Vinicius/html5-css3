@@ -2,7 +2,7 @@
 .age-groupOpts{
     display: flex;
     justify-content: space-between;
-    width: 90%;
+    width: 80%;
     line-height: 36px;
 }
 .age-groupOpts > .paragrapy{
