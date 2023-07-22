@@ -8,3 +8,8 @@
     position: relative;
     top:-20px;
 }
+.main-section._pag3{
+    flex-direction: row;
+    justify-content: space-between;
+    position: unset;
+}
