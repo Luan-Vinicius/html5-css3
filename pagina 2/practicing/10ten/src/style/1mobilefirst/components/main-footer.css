@@ -1,0 +1,11 @@
+@charset "UTF-8";
+.main-footer{
+    display: flex;
+    justify-content: space-around;
+
+    background-color: red;
+    width: 100%;
+
+    position: absolute;
+    top:100%;
+}

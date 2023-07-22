@@ -32,6 +32,15 @@
     bottom:0px;
 }
 
+.main-button._addCart{
+    width: 216px;
+}
+.main-button._add{
+    width: 54px;
+    height: 54px;
+    border-radius: 50%;
+}
+
 .main-button:hover{
     background-color: #ff6e1b;
 }

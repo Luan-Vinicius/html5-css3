@@ -7,3 +7,6 @@
     width: 100%;
     height: 212px;
 }
+.gallery-imgs>div>a{
+    text-decoration: none;
+}
