@@ -4,6 +4,8 @@
     flex-direction: column;
 
     width: 100%;
+
+    overflow-x: hidden;
 }
 .all-items > .p, .main-title{
     width: 90%;
