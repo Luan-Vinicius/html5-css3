@@ -1,7 +1,7 @@
 
 
 let $ageopts = document.getElementsByClassName("age-opts")
-console.log($ageopts)
+
 let dest
 for(v of $ageopts){
    if(v.getAttribute('class')=="age-opts _destaque"){
