@@ -26,9 +26,10 @@
     margin-bottom: 10px;
 
     position: fixed;
-    right: 62.5px;
+    right: 50%;
+    left:31%;
     top:calc(100%-1px);
-    left: 62.5px;
+    
     bottom:0px;
 }
 

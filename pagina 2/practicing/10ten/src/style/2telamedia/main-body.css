@@ -1,0 +1,7 @@
+@media screen and (min-width:481px) and (max-width:768px){
+    .main-body{
+        display: flex;
+        justify-content: center;
+        background-color: lightgreen
+    }
+}

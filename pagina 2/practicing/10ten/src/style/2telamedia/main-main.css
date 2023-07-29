@@ -1,0 +1,7 @@
+@media screen and (min-width:481px) and (max-width:768px){
+    .main-main{
+        width: 360px;
+        border: 1px solid rgba(0, 0, 0, 0.322);
+        box-sizing: border-box;
+    }
+}
