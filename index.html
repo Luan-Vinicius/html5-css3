@@ -46,10 +46,10 @@
     <main class="main-main">
         <h1 class="main-title _option1">Exercicios</h1>
         <article class="main-article">
-            <h3 id="guanabara_class" class="main-subtitle" onclick="openExercGuanabara()">Guanabara's class</h3>
-            <h3 id="marcoBruno" class="main-subtitle" onclick="openExercMarcoBruno()">Marco Bruno</h3>
+            <h3 id="guanabara_class" class="main-subtitle">Guanabara's class</h3>
+            <h3 id="marcoBruno" class="main-subtitle">Marco Bruno</h3>
         </article>
-        <div id="list_exerc_guanabara">
+        <div id="list_exerc_guanabara", style="display: none;">
             <p><a class="estilocaminho" href="exercicios_guanabara/1one/ExOne.html", hreflang="pt-br", target="_self", rel="next">Exercise One</a></p>
 
             <p><a class="estilocaminho" href="exercicios_guanabara/2two/ExTwo.html", hreflang="pt-br", target="_self", rel="next">Exercise Two</a></p>
@@ -106,7 +106,7 @@
 
             <p><a class="estilocaminho" href="exercicios_guanabara/26twentysix/mq001/index.html" hreflang="pt-BR" target="_self" rel="next">Exercise twenty six</a></p>
         </div>
-        <div id="list_exerc_marcoBruno">
+        <div id="list_exerc_marcoBruno", style="display: none;">
             <p><a class="estilocaminho" href="exercicios_marcoBruno/html-css-feliz/index.html" hreflang="pt-BR" target="_self" rel="next">Exercicio Portifolio</a></p>
         </div>
     </main>
@@ -117,32 +117,5 @@
     </footer>
 
 </body>
-
-
-    <script>
-        function openExercGuanabara(){
-            if(list_exerc_guanabara.style.display=="none"){
-                list_exerc_guanabara.style.display="block";
-                guanabara_class.style.color="yellow";
-                list_exerc_marcoBruno.style="none"
-                marcoBruno.style.color="black";
-                
-            }else{
-                list_exerc_guanabara.style.display="none";
-                guanabara_class.style.color="black";
-            }
-        }
-
-        function openExercMarcoBruno(){
-            if(list_exerc_marcoBruno.style.display=="none"){
-                list_exerc_marcoBruno.style.display="block";
-                marcoBruno.style.color="yellow";
-                list_exerc_guanabara.style.display="none";
-                guanabara_class.style.color="black";
-            }else{
-                list_exerc_marcoBruno.style.display="none";
-                marcoBruno.style.color="black";
-            }
-        }
-    </script>
+<script src="script/script.js"></script>
 </html>
