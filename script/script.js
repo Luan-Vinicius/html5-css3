@@ -1,32 +1,52 @@
-const $guanabaraClass = document.getElementById("guanabara_class")
-const $marcoBruno = document.getElementById("marcoBruno")
-const $list_exerc_guanabara = document.getElementById("list_exerc_guanabara")
-const $list_exerc_marcoBruno = document.getElementById("list_exerc_marcoBruno")
+const $titleExerc = [...document.getElementsByClassName("main-subtitle")]
+const $divListExerc = [...document.getElementsByClassName("listExerc#Script")]
 
-$guanabaraClass.addEventListener("click",()=>{
-    if($list_exerc_marcoBruno.style.display=="block"){
-        $list_exerc_marcoBruno.style.display="none"
-        $marcoBruno.style.color="black"
-    }
-    if($list_exerc_guanabara.style.display=="none"){
-        $list_exerc_guanabara.style.display="block"
-        $guanabaraClass.style.color="yellow"
-    }else{
-        $list_exerc_guanabara.style.display="none"
-        $guanabaraClass.style.color="black"
-    }
+$titleExerc.map((el)=>{
+    el.addEventListener("click",()=>{//ADD OU REMOVE A CLASSE SELECTED QUANDO CLICAR
+        if(el.getAttribute("class")=="main-subtitle"){
+            removeClassSelected()
+            el.classList.toggle("_selected")
+            verifica()
+        }else{
+            el.classList.toggle("_selected")
+            verifica()
+        }
+    })
 })
 
-$marcoBruno.addEventListener("click",()=>{
-    if($list_exerc_guanabara.style.display=="block"){
-        $list_exerc_guanabara.style.display="none"
-        $guanabaraClass.style.color="black"
-    }
-    if($list_exerc_marcoBruno.style.display=="none"){
-        $list_exerc_marcoBruno.style.display="block"
-        $marcoBruno.style.color="yellow"
-    }else{
-        $list_exerc_marcoBruno.style.display="none"
-        $marcoBruno.style.color="black"
-    }
-})
+
+
+function removeClassSelected(){//REMOVE A CLASSE SELECTED DE TODOS OS ELEMENTO
+    $titleExerc.map((el)=>{
+        el.setAttribute("class","main-subtitle")
+    })
+}
+function removeDisplayBlock(){//ALTERA O DISPLAY BLOCK PARA NONE
+    $divListExerc.map(el=>{
+        el.setAttribute("style","display:none")
+    })
+}
+function verifica(){
+    $titleExerc.map((el)=>{
+        if(el.getAttribute("class")=="main-subtitle _selected"){
+            switch(el.id){
+                case "guanabara_class":
+                    removeDisplayBlock()
+                    $divListExerc[0].setAttribute("style","display:block")
+                break
+                case "marcoBruno":
+                    removeDisplayBlock()
+                    $divListExerc[1].setAttribute("style","display:block")
+                break
+                default:
+                    removeDisplayBlock()
+                    $divListExerc[2].setAttribute("style","display:block")
+                break
+            }
+        }else{
+            if(el.id=="guanabara_class"){
+                removeDisplayBlock()
+            }
+        }
+    })
+}

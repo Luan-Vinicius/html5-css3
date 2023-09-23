@@ -1,7 +1,8 @@
 @charset "UTF-8";
 .main-subtitle{
-    font-size:1em;
-    color: black;
-
+    font-size:0.8em;
     margin: 10px 0px;
+}
+.main-subtitle._selected{
+    color: yellow;
 }
