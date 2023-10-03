@@ -1,0 +1,17 @@
+@charset "UTF-8";
+@media screen and (min-width:481px) and (max-width:768px){
+    .main-button{
+        font-size: 10px;
+        width: 160px;
+        height: 56px;
+    }
+    .main-button:hover{
+        font-size: 11px;
+    }
+    .box-title div .main-button{
+        width: 115px;
+        height: 39px;
+        line-height: 39px;
+        box-shadow:3px 3px 0px black;
+    }
+}

@@ -1,0 +1,17 @@
+@charset "UTF-8";
+@media screen and (min-width:481px) and (max-width:768px){
+    .box-title{
+        background-size: cover;
+        background-position: left 100% center;
+    }
+    .box-title .title{
+        margin-right: 0px;
+        width: 250px;
+        height: 55px;
+        box-shadow: 3px 3px 0px black;
+    }
+    .box-title div{
+        margin-right: 0px;
+        width: 300px;
+    }
+}

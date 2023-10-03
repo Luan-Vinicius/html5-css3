@@ -1,0 +1,8 @@
+@charset "UTF-8";
+@media screen and (min-width:481px) and (max-width:768px){
+    .main-section{
+        height:300px;
+        background-size: cover;
+        background-position: left 100% center;
+    }
+}
